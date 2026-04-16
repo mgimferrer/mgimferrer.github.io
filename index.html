@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -56,7 +57,7 @@
         </div>
         <div class="hero-portrait">
           <div class="portrait-frame" aria-hidden="true">
-            <img src="https://lh5.googleusercontent.com/-yCSf5ElQTw8/AAAAAAAAAAI/AAAAAAAAAAA/YWjSz5KObBk/s400-c/photo.jpg" alt="Martí Gimferrer" />
+            <img src="assets/portrait.jpg" alt="Martí Gimferrer" />
           </div>
         </div>
       </div>
@@ -269,23 +270,23 @@
             </ul>
           </div>
         </div>
-        <div class="cv-grid" style="margin-top: 1rem;">
-          <div class="cv-block">
-            <h3>Research Stays</h3>
-            <ul class="cv-list">
-              <li><strong>University of Saarbrücken (DE)</strong> — 6 months, 2021–2022</li>
-              <li><strong>University of California, Berkeley (US)</strong> — 4 months, 2020</li>
-              <li><strong>Donostia International Physics Center (ES)</strong> — 3 months, 2017</li>
-              <li><strong>Queen Mary University of London (UK)</strong> — 2 months, 2015</li>
-            </ul>
-          </div>
-          <div class="cv-block">
-            <h3>Selected Grants (PI)</h3>
-            <ul class="cv-list">
-              <li><strong>Volkswagen Foundation NEXT – Quantum Biology</strong> — 362,680&nbsp;€, 2026–2030</li>
-              <li><strong>NHR Starter Project (NHR-NORD@Göttingen)</strong> — 300k core-hours, 2025–2026</li>
-              <li><strong>HPC-Europa3 Transnational Access (×2)</strong> — 2,400&nbsp;€ + 168k core-hours each, 2020 &amp; 2022</li>
-            </ul>
+        <div class="cv-block" style="margin-top: 1.5rem;">
+          <h3>Selected Grants (PI)</h3>
+          <ul class="cv-list">
+            <li><strong>Volkswagen Foundation NEXT – Quantum Biology</strong> — 362,680&nbsp;€, 2026–2030</li>
+            <li><strong>NHR Starter Project (NHR-NORD@Göttingen)</strong> — 300k core-hours, 2025–2026</li>
+            <li><strong>HPC-Europa3 Transnational Access (×2)</strong> — 2,400&nbsp;€ + 168k core-hours each, 2020 &amp; 2022</li>
+          </ul>
+        </div>
+
+        <div class="map-section">
+          <h3>Research Map</h3>
+          <p class="section-intro" style="margin-bottom: 1rem;">Institutions and research groups I have worked with. Click any pin for details.</p>
+          <div id="research-map"></div>
+          <div class="map-legend">
+            <span><span class="map-dot" style="background:var(--forest)"></span>Current position</span>
+            <span><span class="map-dot" style="background:var(--forest-soft)"></span>PhD &amp; studies</span>
+            <span><span class="map-dot" style="background:var(--gold)"></span>Research stay</span>
           </div>
         </div>
         <p><a class="btn btn-primary" href="assets/cv.pdf">Download full CV (PDF)</a></p>
@@ -303,7 +304,8 @@
               feel free to connect.
             </p>
             <ul class="contact-links">
-              <li><span>Email</span><a href="mailto:mgimferrer18@gmail.com">mgimferrer18@gmail.com</a></li>
+              <li><span>Work</span><a href="mailto:marti.gimferrerandres@uni-goettingen.de">marti.gimferrerandres@uni-goettingen.de</a></li>
+              <li><span>Personal</span><a href="mailto:mgimferrer18@gmail.com">mgimferrer18@gmail.com</a></li>
               <li><span>GitHub</span><a href="https://github.com/mgimferrer" rel="noopener">github.com/mgimferrer</a></li>
               <li><span>Scholar</span><a href="https://scholar.google.com/citations?user=Ib8HIWoAAAAJ&hl=en" rel="noopener">Google Scholar</a></li>
               <li><span>ORCID</span><a href="https://orcid.org/0000-0001-5222-2201" rel="noopener">0000-0001-5222-2201</a></li>
@@ -331,6 +333,7 @@
     </div>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

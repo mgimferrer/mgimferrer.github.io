@@ -429,6 +429,38 @@ a:hover { color: var(--forest-deep); text-decoration-thickness: 2px; }
   color: var(--ink-soft);
 }
 
+/* ---------- Research map ---------- */
+.map-section { margin-top: 2rem; }
+.map-section h3 {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.4rem;
+}
+#research-map {
+  height: 420px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+.map-legend {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.map-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1.5px currentColor;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--cream-2);
