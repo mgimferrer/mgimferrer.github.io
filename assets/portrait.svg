@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe7d2"/>
+      <stop offset="100%" stop-color="#d9cfb5"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f5d3a"/>
+      <stop offset="100%" stop-color="#1f4228"/>
+    </linearGradient>
+  </defs>
+  <rect width="260" height="260" fill="url(#bg)"/>
+  <!-- shoulders -->
+  <path d="M20 260 C 40 190, 90 170, 130 170 C 170 170, 220 190, 240 260 Z" fill="url(#body)"/>
+  <!-- head -->
+  <circle cx="130" cy="120" r="56" fill="#e9d9b3"/>
+  <!-- subtle hair -->
+  <path d="M78 105 C 90 70, 170 70, 182 105 C 175 90, 150 82, 130 82 C 110 82, 85 90, 78 105 Z" fill="#2b2a24"/>
+  <!-- initials overlay -->
+  <text x="130" y="128" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="44" fill="#2b2a24" opacity="0.2" font-weight="700">MG</text>
+</svg>

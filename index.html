@@ -1,1 +1,259 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic homepage of Martí Gimferrer — research, publications, news, and CV." />
+  <title>Martí Gimferrer — Personal Academic Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">MG</span>
+        <span class="brand-text">Martí Gimferrer</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO / HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Personal Academic Homepage</p>
+          <h1>Hello — I'm <span class="accent">Martí Gimferrer</span>.</h1>
+          <p class="lede">
+            Short one-line description of who you are and what you work on.
+            Replace this placeholder with a sentence or two about your research focus, affiliation, and current position.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#research">Explore research</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-portrait">
+          <div class="portrait-frame" aria-hidden="true">
+            <img src="assets/portrait.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2>About</h2>
+        <div class="two-col">
+          <div>
+            <p>
+              This is a placeholder biography. Use this space for a concise introduction:
+              your background, where you studied, the labs you have been part of, and the
+              broad questions that drive your research.
+            </p>
+            <p>
+              Keep it to two or three short paragraphs — visitors usually scan. You can
+              link to <a href="#cv">your CV</a> for the long version.
+            </p>
+          </div>
+          <aside class="quick-facts">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><strong>Role:</strong> Position / Title</li>
+              <li><strong>Group:</strong> Research group or affiliation</li>
+              <li><strong>Institution:</strong> University name</li>
+              <li><strong>Location:</strong> City, Country</li>
+              <li><strong>Interests:</strong> Theme 1, theme 2, theme 3</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="container">
+        <h2>Research</h2>
+        <p class="section-intro">
+          A brief framing of the research themes. Each card below represents a line of work —
+          replace titles, summaries, and images with your own.
+        </p>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-media" aria-hidden="true"></div>
+            <h3>Research theme one</h3>
+            <p>
+              One or two sentences describing the motivation, approach, and what makes
+              this line of work distinctive. Link to a paper or project page if available.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-media" aria-hidden="true"></div>
+            <h3>Research theme two</h3>
+            <p>
+              Placeholder description. Swap in your own summary, with a DOI or preprint link
+              to anchor the work.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-media" aria-hidden="true"></div>
+            <h3>Research theme three</h3>
+            <p>
+              Placeholder description for a third theme. Three cards tend to look balanced;
+              feel free to add or remove as needed.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <h2>Publications</h2>
+        <p class="section-intro">
+          Selected publications. For a full list, see your
+          <a href="#" rel="noopener">Google Scholar</a> or
+          <a href="#" rel="noopener">ORCID</a> profile.
+        </p>
+        <ol class="pub-list">
+          <li>
+            <p class="pub-title">Title of a recent paper.</p>
+            <p class="pub-meta">
+              <span class="authors">A. Author, <strong>M. Gimferrer</strong>, C. Author</span>
+              · <em>Journal Name</em>, Year, Volume, Pages.
+              <a href="#" class="pub-link">DOI</a> · <a href="#" class="pub-link">PDF</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub-title">Another paper you want to highlight.</p>
+            <p class="pub-meta">
+              <span class="authors"><strong>M. Gimferrer</strong>, D. Author</span>
+              · <em>Journal Name</em>, Year, Volume, Pages.
+              <a href="#" class="pub-link">DOI</a>
+            </p>
+          </li>
+          <li>
+            <p class="pub-title">An earlier representative paper.</p>
+            <p class="pub-meta">
+              <span class="authors">E. Author, F. Author, <strong>M. Gimferrer</strong></span>
+              · <em>Journal Name</em>, Year, Volume, Pages.
+              <a href="#" class="pub-link">DOI</a>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2>News</h2>
+        <ul class="timeline">
+          <li>
+            <time datetime="2026-04">April 2026</time>
+            <p>Placeholder news item. Something exciting happened — a preprint, a talk, a visit.</p>
+          </li>
+          <li>
+            <time datetime="2026-02">February 2026</time>
+            <p>Another placeholder. Conference attended, award received, paper accepted.</p>
+          </li>
+          <li>
+            <time datetime="2025-11">November 2025</time>
+            <p>Another placeholder news item for the timeline.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section section-alt">
+      <div class="container">
+        <h2>CV</h2>
+        <p class="section-intro">
+          A short summary of education and appointments. A full PDF is linked at the end.
+        </p>
+        <div class="cv-grid">
+          <div class="cv-block">
+            <h3>Education</h3>
+            <ul class="cv-list">
+              <li><strong>PhD, Field</strong> — Institution, Year</li>
+              <li><strong>MSc, Field</strong> — Institution, Year</li>
+              <li><strong>BSc, Field</strong> — Institution, Year</li>
+            </ul>
+          </div>
+          <div class="cv-block">
+            <h3>Appointments</h3>
+            <ul class="cv-list">
+              <li><strong>Current role</strong> — Institution, Year–present</li>
+              <li><strong>Previous role</strong> — Institution, Year–Year</li>
+            </ul>
+          </div>
+        </div>
+        <p><a class="btn btn-primary" href="assets/cv.pdf">Download full CV (PDF)</a></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <p>
+              The best way to reach me is by email. I'm also active on the profiles below —
+              feel free to connect.
+            </p>
+            <ul class="contact-links">
+              <li><span>Email</span><a href="mailto:mgimferrer18@gmail.com">mgimferrer18@gmail.com</a></li>
+              <li><span>GitHub</span><a href="https://github.com/mgimferrer" rel="noopener">github.com/mgimferrer</a></li>
+              <li><span>Scholar</span><a href="#" rel="noopener">Google Scholar</a></li>
+              <li><span>ORCID</span><a href="#" rel="noopener">ORCID profile</a></li>
+            </ul>
+          </div>
+          <address class="address-card">
+            <p>
+              <strong>Office address</strong><br />
+              Department Name<br />
+              Building, Room<br />
+              Street, City, Postal code<br />
+              Country
+            </p>
+          </address>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Martí Gimferrer. Built with plain HTML &amp; CSS. Hosted on GitHub Pages.</p>
+      <p><a href="#home">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
