@@ -25,8 +25,9 @@
   if (year) year.textContent = new Date().getFullYear();
 
   // ── Research map ──────────────────────────────────────────────
-  var mapEl = document.getElementById('research-map');
-  if (mapEl && typeof L !== 'undefined') {
+  function initMap() {
+    var mapEl = document.getElementById('research-map');
+    if (!mapEl || typeof L === 'undefined') return;
 
     var map = L.map('research-map', { scrollWheelZoom: false });
 
@@ -103,8 +104,20 @@
       markers.push(m);
     });
 
-    // Fit all markers with padding
-    var group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.25));
+    // Set a safe default view first, then fit all markers
+    map.setView([48, 5], 3);
+    try {
+      var group = L.featureGroup(markers);
+      map.fitBounds(group.getBounds().pad(0.25));
+    } catch (e) { /* keep default view */ }
+
+    // Ensure correct render size after any CSS transitions
+    setTimeout(function () { map.invalidateSize(); }, 200);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMap);
+  } else {
+    initMap();
   }
 })();

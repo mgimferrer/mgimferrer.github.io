@@ -438,9 +438,9 @@ a:hover { color: var(--forest-deep); text-decoration-thickness: 2px; }
 #research-map {
   height: 420px;
   border-radius: var(--radius-lg);
-  overflow: hidden;
   border: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
+  z-index: 0; /* keep below sticky header */
 }
 .map-legend {
   display: flex;
