@@ -1,0 +1,216 @@
+{
+  "_note": "Static fallback — sourced from Crossref API via OpenAlex. Regenerate after adding new publications. Author lists from Crossref; page/volume data from Crossref + index.html.",
+  "_generated": "2026-04-17",
+  "publications": [
+    {
+      "num": 1, "doi": "10.1021/acs.inorgchem.5b02543", "corresponding_author": false,
+      "year": 2016, "journal_full": "Inorganic Chemistry", "journal_abbr": "Inorg. Chem.",
+      "volume": "55", "issue": "5", "first_page": "2185", "last_page": "2199", "article_number": "",
+      "title": "Scrutinizing the Noninnocence of Quinone Ligands in Ruthenium Complexes: Insights from Structural, Electronic, Energy, and Effective Oxidation State Analyses",
+      "authors": ["Skara, G.", "Gimferrer, M.", "De Proft, F.", "Salvador, P.", "Pinter, B."]
+    },
+    {
+      "num": 2, "doi": "10.3390/catal7120389", "corresponding_author": false,
+      "year": 2017, "journal_full": "Catalysts", "journal_abbr": "Catalysts",
+      "volume": "7", "issue": "12", "first_page": "389", "last_page": "", "article_number": "",
+      "title": "In Silico Switch from Second- to First-Row Transition Metals in Olefin Metathesis: From Ru to Fe and from Rh to Co",
+      "authors": ["Luque-Urrutia, J. A.", "Gimferrer, M.", "Casals-Cruañas, È.", "Poater, A."]
+    },
+    {
+      "num": 3, "doi": "10.1021/acs.organomet.8b00102", "corresponding_author": false,
+      "year": 2018, "journal_full": "Organometallics", "journal_abbr": "Organometallics",
+      "volume": "37", "issue": "9", "first_page": "1456", "last_page": "1461", "article_number": "",
+      "title": "Monitoring of the Phosphine Role in the Mechanism of Palladium-Catalyzed Benzosilole Formation from Aryloxyethynyl Silanes",
+      "authors": ["Gimferrer, M.", "Minami, Y.", "Noguchi, Y.", "Hiyama, T.", "Poater, A."]
+    },
+    {
+      "num": 4, "doi": "10.3390/catal8060224", "corresponding_author": false,
+      "year": 2018, "journal_full": "Catalysts", "journal_abbr": "Catalysts",
+      "volume": "8", "issue": "6", "first_page": "224", "last_page": "", "article_number": "",
+      "title": "Exploring Basic Components Effect on the Catalytic Efficiency of Chevron-Phillips Catalyst in Ethylene Trimerization",
+      "authors": ["Naji-Rad, E.", "Gimferrer, M.", "Bahri-Laleh, N.", "Nekoomanesh-Haghighi, M.", "Poater, A."]
+    },
+    {
+      "num": 5, "doi": "10.1021/acs.inorgchem.8b00670", "corresponding_author": false,
+      "year": 2018, "journal_full": "Inorganic Chemistry", "journal_abbr": "Inorg. Chem.",
+      "volume": "57", "issue": "12", "first_page": "6981", "last_page": "6990", "article_number": "",
+      "title": "Covalent and Ionic Capacity of MOFs To Sorb Small Gas Molecules",
+      "authors": ["Poater, J.", "Gimferrer, M.", "Poater, A."]
+    },
+    {
+      "num": 6, "doi": "10.1021/acscatal.8b04175", "corresponding_author": false,
+      "year": 2019, "journal_full": "ACS Catalysis", "journal_abbr": "ACS Catal.",
+      "volume": "9", "issue": "3", "first_page": "1662", "last_page": "1669", "article_number": "",
+      "title": "Mechanism of Coupling of Alcohols and Amines To Generate Aldimines and H2 by a Pincer Manganese Catalyst",
+      "authors": ["Masdemont, J.", "Luque-Urrutia, J. A.", "Gimferrer, M.", "Milstein, D.", "Poater, A."]
+    },
+    {
+      "num": 7, "doi": "10.1021/acs.organomet.9b00591", "corresponding_author": false,
+      "year": 2019, "journal_full": "Organometallics", "journal_abbr": "Organometallics",
+      "volume": "38", "issue": "24", "first_page": "4585", "last_page": "4592", "article_number": "",
+      "title": "Computational Monitoring of Oxidation States in Olefin Metathesis",
+      "authors": ["Gimferrer, M.", "Salvador, P.", "Poater, A."]
+    },
+    {
+      "num": 8, "doi": "10.3390/molecules25010234", "corresponding_author": false,
+      "year": 2020, "journal_full": "Molecules", "journal_abbr": "Molecules",
+      "volume": "25", "issue": "1", "first_page": "234", "last_page": "", "article_number": "",
+      "title": "Can We Safely Obtain Formal Oxidation States from Centroids of Localized Orbitals?",
+      "authors": ["Gimferrer, M.", "Comas-Vilà, G.", "Salvador, P."]
+    },
+    {
+      "num": 9, "doi": "10.1002/ejic.201901220", "corresponding_author": false,
+      "year": 2020, "journal_full": "European Journal of Inorganic Chemistry", "journal_abbr": "Eur. J. Inorg. Chem.",
+      "volume": "2020", "issue": "11-12", "first_page": "1123", "last_page": "1134", "article_number": "",
+      "title": "Phenoxylation of Alkynes through Mono- and Dual Activation Using Group 11 (Cu, Ag, Au) Catalysts",
+      "authors": ["Ramos, M.", "Poater, J.", "Villegas-Escobar, N.", "Gimferrer, M.", "Toro-Labbé, A.", "Miralles-Cuevas, S.", "Llobet, A.", "Poater, A."]
+    },
+    {
+      "num": 10, "doi": "10.1021/acs.joc.0c01503", "corresponding_author": false,
+      "year": 2020, "journal_full": "The Journal of Organic Chemistry", "journal_abbr": "J. Org. Chem.",
+      "volume": "85", "issue": "19", "first_page": "12262", "last_page": "12269", "article_number": "",
+      "title": "Allyl Monitorization of the Regioselective Pd-Catalyzed Annulation of Alkylnyl Aryl Ethers Leading to Bismethylenechromanes",
+      "authors": ["Gimferrer, M.", "D'Alterio, M. C.", "Talarico, G.", "Minami, Y.", "Hiyama, T.", "Poater, A."]
+    },
+    {
+      "num": 11, "doi": "10.1021/acs.inorgchem.0c02405", "corresponding_author": false,
+      "year": 2020, "journal_full": "Inorganic Chemistry", "journal_abbr": "Inorg. Chem.",
+      "volume": "59", "issue": "20", "first_page": "15410", "last_page": "15420", "article_number": "",
+      "title": "Facing the Challenges of Borderline Oxidation State Assignments Using State-of-the-Art Computational Methods",
+      "authors": ["Gimferrer, M.", "Van der Mynsbrugge, J.", "Bell, A. T.", "Salvador, P.", "Head-Gordon, M."]
+    },
+    {
+      "num": 12, "doi": "10.1021/acs.inorgchem.1c02252", "corresponding_author": false,
+      "year": 2021, "journal_full": "Inorganic Chemistry", "journal_abbr": "Inorg. Chem.",
+      "volume": "60", "issue": "23", "first_page": "17657", "last_page": "17668", "article_number": "",
+      "title": "Unveiling the Electronic Structure of the Bi(+1)/Bi(+3) Redox Couple on NCN and NNN Pincer Complexes",
+      "authors": ["Gimferrer, M.", "Danés, S.", "Andrada, D. M.", "Salvador, P."]
+    },
+    {
+      "num": 13, "doi": "10.1021/acs.jctc.1c01011", "corresponding_author": false,
+      "year": 2022, "journal_full": "Journal of Chemical Theory and Computation", "journal_abbr": "J. Chem. Theory Comput.",
+      "volume": "18", "issue": "1", "first_page": "309", "last_page": "322", "article_number": "",
+      "title": "Oxidation State Localized Orbitals: A Method for Assigning Oxidation States Using Optimally Fragment-Localized Orbitals and a Fragment Orbital Localization Index",
+      "authors": ["Gimferrer, M.", "Aldossary, A.", "Salvador, P.", "Head-Gordon, M."]
+    },
+    {
+      "num": 14, "doi": "10.1039/d2sc01401g", "corresponding_author": false,
+      "year": 2022, "journal_full": "Chemical Science", "journal_abbr": "Chem. Sci.",
+      "volume": "13", "issue": "22", "first_page": "6583", "last_page": "6591", "article_number": "",
+      "title": "The Oxidation State in Low-Valent Beryllium and Magnesium Compounds",
+      "authors": ["Gimferrer, M.", "Danés, S.", "Vos, E.", "Yildiz, C. B.", "Corral, I.", "Jana, A.", "Salvador, P.", "Andrada, D. M."]
+    },
+    {
+      "num": 15, "doi": "10.1021/acs.organomet.2c00099", "corresponding_author": false,
+      "year": 2022, "journal_full": "Organometallics", "journal_abbr": "Organometallics",
+      "volume": "41", "issue": "10", "first_page": "1204", "last_page": "1215", "article_number": "",
+      "title": "Knölker Iron Catalysts for Hydrogenation Revisited: A Nonspectator Solvent and Fine-Tuning",
+      "authors": ["Gimferrer, M.", "Joly, N.", "Escayola, S.", "Viñas, E.", "Gaillard, S.", "Solà, M.", "Renaud, J.-L.", "Salvador, P.", "Poater, A."]
+    },
+    {
+      "num": 16, "doi": "10.1021/jacs.2c02818", "corresponding_author": false,
+      "year": 2022, "journal_full": "Journal of the American Chemical Society", "journal_abbr": "J. Am. Chem. Soc.",
+      "volume": "144", "issue": "20", "first_page": "8897", "last_page": "8901", "article_number": "",
+      "title": "Palladium Terminal Imido Complexes with Nitrene Character",
+      "authors": ["Grünwald, A.", "Goswami, B.", "Breitwieser, K.", "Morgenstern, B.", "Gimferrer, M.", "Munz, D.", "Meyer, K."]
+    },
+    {
+      "num": 17, "doi": "10.1039/d2sc05769g", "corresponding_author": false,
+      "year": 2023, "journal_full": "Chemical Science", "journal_abbr": "Chem. Sci.",
+      "volume": "14", "issue": "2", "first_page": "384", "last_page": "392", "article_number": "",
+      "title": "Reply to the 'Comment on \"The Oxidation State in Low-Valent Beryllium and Magnesium Compounds\"' by S. Pan and G. Frenking",
+      "authors": ["Gimferrer, M.", "Danés, S.", "Vos, E.", "Yildiz, C. B.", "Corral, I.", "Jana, A.", "Salvador, P.", "Andrada, D. M."]
+    },
+    {
+      "num": 18, "doi": "10.1021/acs.jpca.2c08061", "corresponding_author": false,
+      "year": 2023, "journal_full": "The Journal of Physical Chemistry A", "journal_abbr": "J. Phys. Chem. A",
+      "volume": "127", "issue": "7", "first_page": "1760", "last_page": "1774", "article_number": "",
+      "title": "Force Decomposition Analysis: A Method to Decompose Intermolecular Forces into Physically Relevant Component Contributions",
+      "authors": ["Aldossary, A.", "Gimferrer, M.", "Mao, Y.", "Hao, H.", "Das, A. K.", "Salvador, P.", "Head-Gordon, T.", "Head-Gordon, M."]
+    },
+    {
+      "num": 19, "doi": "10.1021/acs.jctc.3c00143", "corresponding_author": false,
+      "year": 2023, "journal_full": "Journal of Chemical Theory and Computation", "journal_abbr": "J. Chem. Theory Comput.",
+      "volume": "19", "issue": "12", "first_page": "3469", "last_page": "3485", "article_number": "",
+      "title": "Merging the Energy Decomposition Analysis with the Interacting Quantum Atoms Approach",
+      "authors": ["Gimferrer, M.", "Danés, S.", "Andrada, D. M.", "Salvador, P."]
+    },
+    {
+      "num": 20, "doi": "10.1021/acs.organomet.3c00025", "corresponding_author": false,
+      "year": 2023, "journal_full": "Organometallics", "journal_abbr": "Organometallics",
+      "volume": "42", "issue": "14", "first_page": "1784", "last_page": "1792", "article_number": "",
+      "title": "Enhancement of Knölker Iron Catalysts for Imine Hydrogenation by Predictive Catalysis: From Calculations to Selective Experiments",
+      "authors": ["Joly, N.", "Gimferrer, M.", "Escayola, S.", "Cendra, M.", "Coufourier, S.", "Lohier, J.-F.", "Renaud, J.-L.", "Solà, M.", "Poater, A."]
+    },
+    {
+      "num": 21, "doi": "10.1063/5.0142778", "corresponding_author": false,
+      "year": 2023, "journal_full": "The Journal of Chemical Physics", "journal_abbr": "J. Chem. Phys.",
+      "volume": "158", "issue": "23", "first_page": "", "last_page": "", "article_number": "234105",
+      "title": "Exact Decompositions of the Total KS-DFT Exchange-Correlation Energy into One- and Two-Center Terms",
+      "authors": ["Gimferrer, M.", "Salvador, P."]
+    },
+    {
+      "num": 22, "doi": "10.1021/acs.inorgchem.3c04235", "corresponding_author": true,
+      "year": 2024, "journal_full": "Inorganic Chemistry", "journal_abbr": "Inorg. Chem.",
+      "volume": "63", "issue": "13", "first_page": "5842", "last_page": "5851", "article_number": "",
+      "title": "Rhenium Alkyne Catalysis: Sterics Control the Reactivity",
+      "authors": ["Tomasini, M.", "Gimferrer, M.", "Caporaso, L.", "Poater, A."]
+    },
+    {
+      "num": 23, "doi": "10.1063/5.0206187", "corresponding_author": true,
+      "year": 2024, "journal_full": "The Journal of Chemical Physics", "journal_abbr": "J. Chem. Phys.",
+      "volume": "160", "issue": "17", "first_page": "", "last_page": "", "article_number": "174104",
+      "title": "APOST-3D: Chemical Concepts from Wavefunction Analysis",
+      "authors": ["Salvador, P.", "Ramos-Cordoba, E.", "Montilla, M.", "Pujal, L.", "Gimferrer, M."]
+    },
+    {
+      "num": 24, "doi": "10.1039/d5sc02165k", "corresponding_author": false,
+      "year": 2025, "journal_full": "Chemical Science", "journal_abbr": "Chem. Sci.",
+      "volume": "16", "issue": "24", "first_page": "11002", "last_page": "11011", "article_number": "",
+      "title": "Accurate Vibrational Hydrogen-Bond Shift Predictions with Multicomponent DFT",
+      "authors": ["Gimferrer, M.", "Hasecke, L.", "Bödecker, M.", "Mata, R. A."]
+    },
+    {
+      "num": 25, "doi": "10.1039/d5cp01057h", "corresponding_author": true,
+      "year": 2025, "journal_full": "Physical Chemistry Chemical Physics", "journal_abbr": "Phys. Chem. Chem. Phys.",
+      "volume": "27", "issue": "24", "first_page": "13033", "last_page": "13042", "article_number": "",
+      "title": "NCI Orbital Decomposition and Critical Comparison to Local Correlation Schemes",
+      "authors": ["Aniban, X.", "Ferrer, M.", "Montero-Campillo, M. M.", "Mata, R. A.", "Contreras-García, J.", "Gimferrer, M."]
+    },
+    {
+      "num": 26, "doi": "10.1039/d5sc03374h", "corresponding_author": false,
+      "year": 2025, "journal_full": "Chemical Science", "journal_abbr": "Chem. Sci.",
+      "volume": "16", "issue": "31", "first_page": "14178", "last_page": "14185", "article_number": "",
+      "title": "Bis(amidophenolate)-Supported Pnictoranides: Lewis Acid-Induced Electromerism in a Bismuth Complex",
+      "authors": ["Karnbrock, S. B. H.", "Köster, J. F.", "Becker, I.", "Golz, C.", "Meyer, F.", "Gimferrer, M.", "Alcarazo, M."]
+    },
+    {
+      "num": 27, "doi": "10.1021/acs.jpca.5c00382", "corresponding_author": false,
+      "year": 2025, "journal_full": "The Journal of Physical Chemistry A", "journal_abbr": "J. Phys. Chem. A",
+      "volume": "129", "issue": "15", "first_page": "3560", "last_page": "3566", "article_number": "",
+      "title": "Addressing Anharmonic Effects with Density-Fitted Multicomponent Density Functional Theory",
+      "authors": ["Hasecke, L.", "Breitenbach, M.", "Gimferrer, M.", "Oswald, R.", "Mata, R. A."]
+    },
+    {
+      "num": 28, "doi": "10.1002/anie.202505813", "corresponding_author": false,
+      "year": 2025, "journal_full": "Angewandte Chemie International Edition", "journal_abbr": "Angew. Chem. Int. Ed.",
+      "volume": "64", "issue": "27", "first_page": "", "last_page": "", "article_number": "e202505813",
+      "title": "Cooperativity of Electron Transfer Coupled Spin Transitions in a Tetranuclear Fe/Co Prussian Blue Analogue Revealed by Ultrafast Spectroscopy",
+      "authors": ["Borter, J.", "Kar, S. G.", "Kangsa Banik, S.", "Demeshko, S.", "Oswald, R.", "Gimferrer, M.", "Mata, R. A.", "Schwarzer, D.", "Meyer, F."]
+    },
+    {
+      "num": 29, "doi": "10.1016/j.apsusc.2025.163050", "corresponding_author": false,
+      "year": 2025, "journal_full": "Applied Surface Science", "journal_abbr": "Appl. Surf. Sci.",
+      "volume": "698", "issue": "", "first_page": "", "last_page": "", "article_number": "163050",
+      "title": "Computational and Experimental Insights into Single-Atom Catalysts Supported on g-C3N4: Unraveling the Superior Stability and Catalytic Activity of Rh in Hydroformylation Reactions",
+      "authors": ["Monreal-Corona, R.", "Jurado, L.", "Ishikawa, H.", "Gimferrer, M.", "Poater, A.", "Bobadilla, L. F.", "Axet, M. R.", "Posada-Pérez, S."]
+    },
+    {
+      "num": 30, "doi": "10.1016/j.ccr.2025.217383", "corresponding_author": true,
+      "year": 2026, "journal_full": "Coordination Chemistry Reviews", "journal_abbr": "Coord. Chem. Rev.",
+      "volume": "550", "issue": "", "first_page": "", "last_page": "", "article_number": "217383",
+      "title": "On the Use of Chemical Bonding Descriptors in Machine Learning",
+      "authors": ["Tomasini, M.", "Caporaso, L.", "Gimferrer, M.", "Poater, A."]
+    }
+  ]
+}
