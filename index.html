@@ -1,75 +1,72 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic homepage of Martí Gimferrer — research, publications, news, and CV." />
-  <title>Martí Gimferrer — Personal Academic Homepage</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Personal academic homepage of Martí Gimferrer — research, publications, news, and CV." name="description"/>
+<title>Martí Gimferrer — Personal Academic Homepage</title>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" rel="stylesheet"/>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
-
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">
-        <span class="brand-mark" aria-hidden="true">MG</span>
-        <span class="brand-text">Martí Gimferrer</span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#cv">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-
-    <!-- HERO / HOME -->
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="eyebrow">Personal Academic Homepage</p>
-          <h1>Hello — I'm <span class="accent">Martí Gimferrer</span>.</h1>
-          <p class="lede">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="#home">
+<span aria-hidden="true" class="brand-mark">MG</span>
+<span class="brand-text">Martí Gimferrer</span>
+</a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="Primary" class="site-nav" id="site-nav">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#research">Research</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#cv">CV</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main">
+<!-- HERO / HOME -->
+<section class="hero" id="home">
+<div class="container hero-inner">
+<div class="hero-text">
+<p class="eyebrow">Personal Academic Homepage</p>
+<h1>Hello — I'm <span class="accent">Martí Gimferrer</span>.</h1>
+<p class="lede">
             Postdoctoral researcher at the Institute of Physical Chemistry, University of Göttingen.
             I develop and apply quantum-chemical methods for chemical bonding analysis, with contributions
             to major software packages including Q-Chem and APOST-3D.
           </p>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="#research">Explore research</a>
-            <a class="btn btn-ghost" href="#contact">Get in touch</a>
-          </div>
-        </div>
-        <div class="hero-portrait">
-          <div class="portrait-frame" aria-hidden="true">
-            <img src="assets/portrait.jpg" alt="Martí Gimferrer" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section section-alt">
-      <div class="container">
-        <h2>About</h2>
-        <div class="two-col">
-          <div>
-            <p>
+<div class="hero-cta">
+<a class="btn btn-primary" href="#research">Explore research</a>
+<a class="btn btn-ghost" href="#contact">Get in touch</a>
+</div>
+</div>
+<div class="hero-portrait">
+<div aria-hidden="true" class="portrait-frame">
+<img alt="Martí Gimferrer" src="assets/portrait.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section class="section section-alt" id="about">
+<div class="container">
+<h2>About</h2>
+<div class="two-col">
+<div>
+<p>
               My main line of research is anchored on the concept of chemical bonding. My doctoral work
               at the University of Girona dealt with classical but still highly debated questions surrounding
               the analysis of electronic wave functions, resulting in significant contributions to the
@@ -78,46 +75,45 @@
               chemical information for use in machine learning methodologies, as well as in the modelling
               of X-ray diffraction data (recent additions to the Olex2 program).
             </p>
-            <p>
+<p>
               I am currently a postdoctoral researcher in the Computational Chemistry and Biochemistry
               Group at the University of Göttingen, where I am involved in large research networks funded
               by the German Research Society. In 2025 I was awarded a grant as principal investigator
               under the Volkswagen Foundation's NEXT – Quantum Biology call, funding research on the use
               of chemical bonding algorithms for improving the refinement of protein crystal structures.
             </p>
-            <p>
+<p>
               Over 8+ years my work is documented in 30 publications (17 as first/corresponding author,
-              h-index&nbsp;18) and in software actively used by the chemical community. See my
+              h-index 18) and in software actively used by the chemical community. See my
               <a href="#cv">CV</a> for the full record.
             </p>
-          </div>
-          <aside class="quick-facts">
-            <h3>Quick facts</h3>
-            <ul>
-              <li><strong>Role:</strong> Postdoctoral Researcher</li>
-              <li><strong>Group:</strong> Computational Chemistry and Biochemistry Group</li>
-              <li><strong>Institution:</strong> University of Göttingen</li>
-              <li><strong>Location:</strong> Göttingen, Germany</li>
-              <li><strong>Interests:</strong> Chemical Bonding, Theoretical Chemistry, Catalysis, Nuclear Quantum Effects</li>
-            </ul>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <!-- RESEARCH -->
-    <section id="research" class="section">
-      <div class="container">
-        <h2>Research</h2>
-        <p class="section-intro">
+</div>
+<aside class="quick-facts">
+<h3>Quick facts</h3>
+<ul>
+<li><strong>Role:</strong> Postdoctoral Researcher</li>
+<li><strong>Group:</strong> Computational Chemistry and Biochemistry Group</li>
+<li><strong>Institution:</strong> University of Göttingen</li>
+<li><strong>Location:</strong> Göttingen, Germany</li>
+<li><strong>Interests:</strong> Chemical Bonding, Theoretical Chemistry, Catalysis, Nuclear Quantum Effects</li>
+</ul>
+</aside>
+</div>
+</div>
+</section>
+<!-- RESEARCH -->
+<section class="section" id="research">
+<div class="container">
+<h2>Research</h2>
+<p class="section-intro">
           A brief framing of the research themes. Each card below represents a line of work —
           replace titles, summaries, and images with your own.
         </p>
-        <div class="card-grid">
-          <article class="card">
-            <div class="card-media" aria-hidden="true"></div>
-            <h3>Chemical Bonding Analysis</h3>
-            <p>
+<div class="card-grid">
+<article class="card">
+<div aria-hidden="true" class="card-media"></div>
+<h3>Chemical Bonding Analysis</h3>
+<p>
               Development and application of real-space methods for analysing electronic wave functions —
               oxidation states, atomic/molecular descriptors, energy decomposition, and interacting quantum
               atoms. Key contributions include the open-source
@@ -125,320 +121,284 @@
               integration of oxidation-state localized orbitals into
               <a href="https://doi.org/10.1021/acs.jctc.1c01011" rel="noopener">Q-Chem</a>.
             </p>
-          </article>
-          <article class="card">
-            <div class="card-media" aria-hidden="true"></div>
-            <h3>Nuclear Quantum Effects</h3>
-            <p>
+</article>
+<article class="card">
+<div aria-hidden="true" class="card-media"></div>
+<h3>Nuclear Quantum Effects</h3>
+<p>
               Modelling of proton and hydrogen-bond phenomena beyond the Born–Oppenheimer approximation.
               This includes the development of multicomponent DFT approaches for
               <a href="https://doi.org/10.1039/D5SC02165K" rel="noopener">accurate vibrational H-bond
               shift predictions</a>, and NCI orbital decomposition tools for characterising
               non-covalent interactions.
             </p>
-          </article>
-          <article class="card">
-            <div class="card-media" aria-hidden="true"></div>
-            <h3>Machine Learning &amp; Structural Refinement</h3>
-            <p>
+</article>
+<article class="card">
+<div aria-hidden="true" class="card-media"></div>
+<h3>Machine Learning &amp; Structural Refinement</h3>
+<p>
               Encoding chemical bonding information as descriptors for machine learning models and for
               improving the refinement of high-resolution X-ray diffraction data (Olex2 / Hirshfeld
               atom refinement). Funded in part by a 2025 Volkswagen Foundation NEXT – Quantum Biology
               grant in collaboration with DESY, the University of Hamburg, and RWTH Aachen.
             </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PUBLICATIONS -->
-    <section id="publications" class="section section-alt">
-      <div class="container">
-        <h2>Publications</h2>
-        <p class="section-intro">
-          30 publications (17 as first/corresponding author, h&#8209;index&nbsp;18).
-          Numbered oldest&#8209;to&#8209;newest; displayed newest&#8209;first.
+</article>
+</div>
+</div>
+</section>
+<!-- PUBLICATIONS -->
+<section class="section section-alt" id="publications">
+<div class="container">
+<h2>Publications</h2>
+<p class="section-intro">
+          30 publications (17 as first/corresponding author, h‑index 18).
+          Numbered oldest‑to‑newest; displayed newest‑first.
           <sup>*</sup> = corresponding author.
           Full list: <a href="https://scholar.google.com/citations?user=Ib8HIWoAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>
-          &middot; <a href="https://orcid.org/0000-0001-6238-3290" rel="noopener">ORCID</a>.
+          · <a href="https://orcid.org/0000-0001-6238-3290" rel="noopener">ORCID</a>.
         </p>
-        <ol class="pub-list">
-          <li data-num="30">
-            <p class="pub-ref">Tomasini, M.; Caporaso, L.; <strong>Gimferrer, M.<sup>*</sup></strong>; Poater, A. On the Use of Chemical Bonding Descriptors in Machine Learning. <em>Coord. Chem. Rev.</em> <strong>2026</strong>, <em>550</em>, 217383. <a href="https://doi.org/10.1016/j.ccr.2025.217383" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="29">
-            <p class="pub-ref">Monreal-Corona, R.; Jurado, L.; Ishikawa, H.; <strong>Gimferrer, M.</strong>; Poater, A.; Bobadilla, L. F.; Axet, M. R.; Posada-Pérez, S. Computational and Experimental Insights into Single-Atom Catalysts Supported on g-C<sub>3</sub>N<sub>4</sub>: Unraveling the Superior Stability and Catalytic Activity of Rh in Hydroformylation Reactions. <em>Appl. Surf. Sci.</em> <strong>2025</strong>, <em>698</em>, 163050. <a href="https://doi.org/10.1016/j.apsusc.2025.163050" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="28">
-            <p class="pub-ref">Borter, J. H.; Kar, S. G.; Kangsa Banik, S.; Demeshko, S.; Oswald, R.; <strong>Gimferrer, M.</strong>; et al. Cooperativity of Electron Transfer Coupled Spin Transitions in a Tetranuclear Fe/Co Prussian Blue Analogue Revealed by Ultrafast Spectroscopy. <em>Angew. Chem. Int. Ed.</em> <strong>2025</strong>, <em>64</em> (27), e202505813. <a href="https://doi.org/10.1002/anie.202505813" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="27">
-            <p class="pub-ref">Hasecke, L.; Breitenbach, M.; <strong>Gimferrer, M.</strong>; Oswald, R.; Mata, R. A. Addressing Anharmonic Effects with Density-Fitted Multicomponent Density Functional Theory. <em>J. Phys. Chem. A</em> <strong>2025</strong>, <em>129</em> (15), 3560–3566. <a href="https://doi.org/10.1021/acs.jpca.5c00382" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="26">
-            <p class="pub-ref">Karnbrock, S. B. H.; Köster, J. F.; Becker, I.; Golz, C.; Meyer, F.; <strong>Gimferrer, M.</strong>; et al. Bis(amidophenolate)-Supported Pnictonanides: Lewis Acid-Induced Electromerism in a Bismuth Complex. <em>Chem. Sci.</em> <strong>2025</strong>, <em>16</em> (31), 14178–14185. <a href="https://doi.org/10.1039/D5SC03374H" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="25">
-            <div class="pub-row">
-              <img src="https://pubs.rsc.org/image/article/2025/CP/d5cp01057h/d5cp01057h-s1.gif" alt="TOC graphic for publication 25" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref">Aniban, X.; Ferrer, M.; Montero-Campillo, M. M.; Mata, R. A.; Contreras-García, J.; <strong>Gimferrer, M.<sup>*</sup></strong> NCI Orbital Decomposition and Critical Comparison to Local Correlation Schemes. <em>Phys. Chem. Chem. Phys.</em> <strong>2025</strong>, <em>27</em> (24), 13033–13042. <a href="https://doi.org/10.1039/D5CP01057H" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="24">
-            <div class="pub-row">
-              <img src="https://pubs.rsc.org/image/article/2025/SC/d5sc02165k/d5sc02165k-s1.gif" alt="TOC graphic for publication 24" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.<sup>*</sup></strong>; Hasecke, L.; Bödecker, M.; Mata, R. A. Accurate Vibrational Hydrogen-Bond Shift Predictions with Multicomponent DFT. <em>Chem. Sci.</em> <strong>2025</strong>, <em>16</em> (24), 11002–11011. <a href="https://doi.org/10.1039/D5SC02165K" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="23">
-            <p class="pub-ref">Salvador, P.; Ramos-Cordoba, E.; Montilla, M.; Pujal, L.; <strong>Gimferrer, M.<sup>*</sup></strong> APOST-3D: Chemical Concepts from Wavefunction Analysis. <em>J. Chem. Phys.</em> <strong>2024</strong>, <em>160</em> (17), 174104. <a href="https://doi.org/10.1063/5.0206187" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="22">
-            <p class="pub-ref">Tomasini, M.; <strong>Gimferrer, M.</strong>; Caporaso, L.; Poater, A. Rhenium Alkyne Catalysis: Sterics Control the Reactivity. <em>Inorg. Chem.</em> <strong>2024</strong>, <em>63</em> (13), 5842–5851. <a href="https://doi.org/10.1021/acs.inorgchem.3c04235" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="21">
-            <p class="pub-ref"><strong>Gimferrer, M.</strong>; Salvador, P. Exact Decompositions of the Total KS-DFT Exchange–Correlation Energy into One- and Two-Center Terms. <em>J. Chem. Phys.</em> <strong>2023</strong>, <em>158</em> (23), 234105. <a href="https://doi.org/10.1063/5.0142778" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="20">
-            <p class="pub-ref">Joly, N.; <strong>Gimferrer, M.</strong>; Escayola, S.; Cendra, M.; Coufourier, S.; Lohier, J.-F.; Renaud, J.-L.; Solà, M.; Poater, A. Enhancement of Knölker Iron Catalysts for Imine Hydrogenation by Predictive Catalysis: From Calculations to Selective Experiments. <em>Organometallics</em> <strong>2023</strong>, <em>42</em> (14), 1784–1792. <a href="https://doi.org/10.1021/acs.organomet.3c00025" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="19">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.jctc.3c00143/asset/images/medium/ct3c00143_0008.gif" alt="TOC graphic for publication 19" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Andrada, D. M.; Salvador, P. Merging the Energy Decomposition Analysis with the Interacting Quantum Atoms Approach. <em>J. Chem. Theory Comput.</em> <strong>2023</strong>, <em>19</em> (12), 3469–3485. <a href="https://doi.org/10.1021/acs.jctc.3c00143" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="18">
-            <p class="pub-ref">Aldossary, A.; <strong>Gimferrer, M.</strong>; Mao, Y.; Hao, H.; Das, A. K.; Salvador, P.; Head-Gordon, M. Force Decomposition Analysis: A Method to Decompose Intermolecular Forces into Physically Relevant Component Contributions. <em>J. Phys. Chem. A</em> <strong>2023</strong>, <em>127</em> (7), 1760–1774. <a href="https://doi.org/10.1021/acs.jpca.2c08061" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="17">
-            <p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Vos, E.; Yildiz, C. B.; Corral, I.; Jana, A.; Salvador, P.; et al. Reply to the 'Comment on "The Oxidation State in Low-Valent Beryllium and Magnesium Compounds"' by S. Pan and G. Frenking. <em>Chem. Sci.</em> <strong>2023</strong>, <em>14</em> (2), 384–392. <a href="https://doi.org/10.1039/D2SC05769G" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="16">
-            <p class="pub-ref">Grünwald, A.; Goswami, B.; Breitwieser, K.; Morgenstern, B.; <strong>Gimferrer, M.</strong>; Munz, D.; Meyer, K. Palladium Terminal Imido Complexes with Nitrene Character. <em>J. Am. Chem. Soc.</em> <strong>2022</strong>, <em>144</em> (20), 8897–8901. <a href="https://doi.org/10.1021/jacs.2c02818" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="15">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.organomet.2c00027/asset/images/medium/om2c00027_0006.gif" alt="TOC graphic for publication 15" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Joly, N.; Escayola, S.; Viñas, E.; Gaillard, S.; Solà, M.; Renaud, J.-L.; Poater, A. Knölker Iron Catalysts for Hydrogenation Revisited: A Nonspectator Solvent and Fine-Tuning. <em>Organometallics</em> <strong>2022</strong>, <em>41</em> (10), 1204–1215. <a href="https://doi.org/10.1021/acs.organomet.2c00027" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="14">
-            <div class="pub-row">
-              <img src="https://pubs.rsc.org/image/article/2022/SC/d2sc01401g/d2sc01401g-f1.gif" alt="TOC graphic for publication 14" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Vos, E.; Yildiz, C. B.; Corral, I.; Jana, A.; Salvador, P. The Oxidation State in Low-Valent Beryllium and Magnesium Compounds. <em>Chem. Sci.</em> <strong>2022</strong>, <em>13</em> (22), 6583–6591. <a href="https://doi.org/10.1039/D2SC01401G" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="13">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.jctc.1c01011/asset/images/medium/ct1c01011_0008.gif" alt="TOC graphic for publication 13" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Aldossary, A.; Salvador, P.; Head-Gordon, M. Oxidation State Localized Orbitals: A Method for Assigning Oxidation States Using Optimally Fragment-Localized Orbitals and a Fragment Orbital Localization Index. <em>J. Chem. Theory Comput.</em> <strong>2022</strong>, <em>18</em> (1), 309–322. <a href="https://doi.org/10.1021/acs.jctc.1c01011" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="12">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.inorgchem.1c02252/asset/images/medium/ic1c02252_0008.gif" alt="TOC graphic for publication 12" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Andrada, D. M.; Salvador, P. Unveiling the Electronic Structure of the Bi(+1)/Bi(+3) Redox Couple on NCN and NNN Pincer Complexes. <em>Inorg. Chem.</em> <strong>2021</strong>, <em>60</em> (23), 17657–17668. <a href="https://doi.org/10.1021/acs.inorgchem.1c02252" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="11">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.inorgchem.0c02219/asset/images/medium/ic0c02219_0005.gif" alt="TOC graphic for publication 11" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Van der Mynsbrugge, J.; Bell, A. T.; Salvador, P.; Head-Gordon, M. Facing the Challenges of Borderline Oxidation State Assignments Using State-of-the-Art Computational Methods. <em>Inorg. Chem.</em> <strong>2020</strong>, <em>59</em> (20), 15410–15420. <a href="https://doi.org/10.1021/acs.inorgchem.0c02219" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="10">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.joc.0c01503/asset/images/medium/jo0c01503_0010.gif" alt="TOC graphic for publication 10" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; D'Alterio, M. C.; Talarico, G.; Minami, Y.; Hiyama, T.; Poater, A. Allyl Monitorization of the Regioselective Pd-Catalyzed Annulation of Alkylnyl Aryl Ethers Leading to Bismethylenechromanes. <em>J. Org. Chem.</em> <strong>2020</strong>, <em>85</em> (19), 12262–12269. <a href="https://doi.org/10.1021/acs.joc.0c01503" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="9">
-            <p class="pub-ref">Ramos, M.; Poater, J.; Villegas-Escobar, N.; <strong>Gimferrer, M.</strong>; Toro-Labbé, A.; Miralles-Cuevas, S.; Llobet, A.; Poater, A. Phenoxylation of Alkynes through Mono‐ and Dual Activation Using Group 11 (Cu, Ag, Au) Catalysts. <em>Eur. J. Inorg. Chem.</em> <strong>2020</strong>, <em>2020</em> (11–12), 1123–1134. <a href="https://doi.org/10.1002/ejic.201901220" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="8">
-            <div class="pub-row">
-              <img src="https://pub.mdpi-res.com/molecules/molecules-25-00234/article_deploy/html/images/molecules-25-00234-ag-550.jpg" alt="TOC graphic for publication 8" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Comas-Vilà, G.; Salvador, P. Can We Safely Obtain Formal Oxidation States from Centroids of Localized Orbitals? <em>Molecules</em> <strong>2020</strong>, <em>25</em> (1), 234. <a href="https://doi.org/10.3390/molecules25010234" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="7">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.organomet.9b00629/asset/images/medium/om9b00629_0013.gif" alt="TOC graphic for publication 7" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Salvador, P.; Poater, A. Computational Monitoring of Oxidation States in Olefin Metathesis. <em>Organometallics</em> <strong>2019</strong>, <em>38</em> (24), 4585–4592. <a href="https://doi.org/10.1021/acs.organomet.9b00629" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="6">
-            <p class="pub-ref">Masdemont, J.; Luque-Urrutia, J. A.; <strong>Gimferrer, M.</strong>; Milstein, D.; Poater, A. Mechanism of Coupling of Alcohols and Amines To Generate Aldimines and H<sub>2</sub> by a Pincer Manganese Catalyst. <em>ACS Catal.</em> <strong>2019</strong>, <em>9</em> (3), 1662–1669. <a href="https://doi.org/10.1021/acscatal.8b04175" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="5">
-            <p class="pub-ref">Poater, J.; <strong>Gimferrer, M.</strong>; Poater, A. Covalent and Ionic Capacity of MOFs To Sorb Small Gas Molecules. <em>Inorg. Chem.</em> <strong>2018</strong>, <em>57</em> (12), 6981–6990. <a href="https://doi.org/10.1021/acs.inorgchem.8b00670" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="4">
-            <p class="pub-ref">Naji-Rad, E.; <strong>Gimferrer, M.</strong>; Bahri-Laleh, N.; Nekoomanesh-Haghighi, M.; Poater, A. Exploring Basic Components Effect on the Catalytic Efficiency of Chevron-Phillips Catalyst in Ethylene Trimerization. <em>Catalysts</em> <strong>2018</strong>, <em>8</em> (6), 224. <a href="https://doi.org/10.3390/catal8060224" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="3">
-            <div class="pub-row">
-              <img src="https://pubs.acs.org/cms/10.1021/acs.organomet.8b00102/asset/images/medium/om-2018-001024_0010.gif" alt="TOC graphic for publication 3" class="pub-toc-img" loading="lazy" />
-              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Minami, Y.; Noguchi, Y.; Hiyama, T.; Poater, A. Monitoring of the Phosphine Role in the Mechanism of Palladium-Catalyzed Benzosilole Formation from Aryloxyethynyl Silanes. <em>Organometallics</em> <strong>2018</strong>, <em>37</em> (9), 1456–1461. <a href="https://doi.org/10.1021/acs.organomet.8b00102" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-            </div>
-          </li>
-          <li data-num="2">
-            <p class="pub-ref">Luque-Urrutia, J. A.; <strong>Gimferrer, M.</strong>; Casals-Cruanas, E.; Poater, A. In Silico Switch from Second- to First-Row Transition Metals in Olefin Metathesis: From Ru to Fe and from Rh to Co. <em>Catalysts</em> <strong>2017</strong>, <em>7</em> (12), 389. <a href="https://doi.org/10.3390/catal7120389" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-          <li data-num="1">
-            <p class="pub-ref">Skara, G.; <strong>Gimferrer, M.</strong>; De Proft, F.; Salvador, P.; Pinter, B. Scrutinizing the Noninnocence of Quinone Ligands in Ruthenium Complexes: Insights from Structural, Electronic, Energy, and Effective Oxidation State Analyses. <em>Inorg. Chem.</em> <strong>2016</strong>, <em>55</em> (5), 2185–2199. <a href="https://doi.org/10.1021/acs.inorgchem.5b02543" target="_blank" rel="noopener" class="pub-link">DOI</a></p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-
-        <!-- NEWS -->
-    <section id="news" class="section">
-      <div class="container">
-        <h2>News</h2>
-        <ul class="timeline">
-          <li>
-            <time datetime="2025-06">June 2025</time>
-            <p>
+<ol class="pub-list">
+<li data-num="30">
+<div class="pub-row"><img alt="TOC graphic for publication 30" class="pub-toc-img" loading="lazy" src="assets/toc/p30-TOC.jpg"/>
+              <p class="pub-ref">Tomasini, M.; Caporaso, L.; <strong>Gimferrer, M.<sup>*</sup></strong>; Poater, A. On the Use of Chemical Bonding Descriptors in Machine Learning. <em>Coord. Chem. Rev.</em> <strong>2026</strong>, <em>550</em>, 217383. <a class="pub-link" href="https://doi.org/10.1016/j.ccr.2025.217383" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="29">
+<p class="pub-ref">Monreal-Corona, R.; Jurado, L.; Ishikawa, H.; <strong>Gimferrer, M.</strong>; Poater, A.; Bobadilla, L. F.; Axet, M. R.; Posada-Pérez, S. Computational and Experimental Insights into Single-Atom Catalysts Supported on g-C<sub>3</sub>N<sub>4</sub>: Unraveling the Superior Stability and Catalytic Activity of Rh in Hydroformylation Reactions. <em>Appl. Surf. Sci.</em> <strong>2025</strong>, <em>698</em>, 163050. <a class="pub-link" href="https://doi.org/10.1016/j.apsusc.2025.163050" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="28">
+<p class="pub-ref">Borter, J. H.; Kar, S. G.; Kangsa Banik, S.; Demeshko, S.; Oswald, R.; <strong>Gimferrer, M.</strong>; et al. Cooperativity of Electron Transfer Coupled Spin Transitions in a Tetranuclear Fe/Co Prussian Blue Analogue Revealed by Ultrafast Spectroscopy. <em>Angew. Chem. Int. Ed.</em> <strong>2025</strong>, <em>64</em> (27), e202505813. <a class="pub-link" href="https://doi.org/10.1002/anie.202505813" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="27">
+<p class="pub-ref">Hasecke, L.; Breitenbach, M.; <strong>Gimferrer, M.</strong>; Oswald, R.; Mata, R. A. Addressing Anharmonic Effects with Density-Fitted Multicomponent Density Functional Theory. <em>J. Phys. Chem. A</em> <strong>2025</strong>, <em>129</em> (15), 3560–3566. <a class="pub-link" href="https://doi.org/10.1021/acs.jpca.5c00382" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="26">
+<p class="pub-ref">Karnbrock, S. B. H.; Köster, J. F.; Becker, I.; Golz, C.; Meyer, F.; <strong>Gimferrer, M.</strong>; et al. Bis(amidophenolate)-Supported Pnictonanides: Lewis Acid-Induced Electromerism in a Bismuth Complex. <em>Chem. Sci.</em> <strong>2025</strong>, <em>16</em> (31), 14178–14185. <a class="pub-link" href="https://doi.org/10.1039/D5SC03374H" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="25">
+<p class="pub-ref">Aniban, X.; Ferrer, M.; Montero-Campillo, M. M.; Mata, R. A.; Contreras-García, J.; <strong>Gimferrer, M.<sup>*</sup></strong> NCI Orbital Decomposition and Critical Comparison to Local Correlation Schemes. <em>Phys. Chem. Chem. Phys.</em> <strong>2025</strong>, <em>27</em> (24), 13033–13042. <a class="pub-link" href="https://doi.org/10.1039/D5CP01057H" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="24">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Hasecke, L.; Bödecker, M.; Mata, R. A. Accurate Vibrational Hydrogen-Bond Shift Predictions with Multicomponent DFT. <em>Chem. Sci.</em> <strong>2025</strong>, <em>16</em> (24), 11002–11011. <a class="pub-link" href="https://doi.org/10.1039/D5SC02165K" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="23">
+<p class="pub-ref">Salvador, P.; Ramos-Cordoba, E.; Montilla, M.; Pujal, L.; <strong>Gimferrer, M.<sup>*</sup></strong> APOST-3D: Chemical Concepts from Wavefunction Analysis. <em>J. Chem. Phys.</em> <strong>2024</strong>, <em>160</em> (17), 174104. <a class="pub-link" href="https://doi.org/10.1063/5.0206187" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="22">
+<div class="pub-row"><img alt="TOC graphic for publication 22" class="pub-toc-img" loading="lazy" src="assets/toc/p22-TOC.jpeg"/>
+              <p class="pub-ref">Tomasini, M.; <strong>Gimferrer, M.<sup>*</sup></strong>; Caporaso, L.; Poater, A. Rhenium Alkyne Catalysis: Sterics Control the Reactivity. <em>Inorg. Chem.</em> <strong>2024</strong>, <em>63</em> (13), 5842–5851. <a class="pub-link" href="https://doi.org/10.1021/acs.inorgchem.3c04235" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="21">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Salvador, P. Exact Decompositions of the Total KS-DFT Exchange–Correlation Energy into One- and Two-Center Terms. <em>J. Chem. Phys.</em> <strong>2023</strong>, <em>158</em> (23), 234105. <a class="pub-link" href="https://doi.org/10.1063/5.0142778" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="20">
+<p class="pub-ref">Joly, N.; <strong>Gimferrer, M.</strong>; Escayola, S.; Cendra, M.; Coufourier, S.; Lohier, J.-F.; Renaud, J.-L.; Solà, M.; Poater, A. Enhancement of Knölker Iron Catalysts for Imine Hydrogenation by Predictive Catalysis: From Calculations to Selective Experiments. <em>Organometallics</em> <strong>2023</strong>, <em>42</em> (14), 1784–1792. <a class="pub-link" href="https://doi.org/10.1021/acs.organomet.3c00025" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="19">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Andrada, D. M.; Salvador, P. Merging the Energy Decomposition Analysis with the Interacting Quantum Atoms Approach. <em>J. Chem. Theory Comput.</em> <strong>2023</strong>, <em>19</em> (12), 3469–3485. <a class="pub-link" href="https://doi.org/10.1021/acs.jctc.3c00143" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="18">
+<p class="pub-ref">Aldossary, A.; <strong>Gimferrer, M.</strong>; Mao, Y.; Hao, H.; Das, A. K.; Salvador, P.; Head-Gordon, M. Force Decomposition Analysis: A Method to Decompose Intermolecular Forces into Physically Relevant Component Contributions. <em>J. Phys. Chem. A</em> <strong>2023</strong>, <em>127</em> (7), 1760–1774. <a class="pub-link" href="https://doi.org/10.1021/acs.jpca.2c08061" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="17">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Vos, E.; Yildiz, C. B.; Corral, I.; Jana, A.; Salvador, P.; et al. Reply to the 'Comment on "The Oxidation State in Low-Valent Beryllium and Magnesium Compounds"' by S. Pan and G. Frenking. <em>Chem. Sci.</em> <strong>2023</strong>, <em>14</em> (2), 384–392. <a class="pub-link" href="https://doi.org/10.1039/D2SC05769G" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="16">
+<p class="pub-ref">Grünwald, A.; Goswami, B.; Breitwieser, K.; Morgenstern, B.; <strong>Gimferrer, M.</strong>; Munz, D.; Meyer, K. Palladium Terminal Imido Complexes with Nitrene Character. <em>J. Am. Chem. Soc.</em> <strong>2022</strong>, <em>144</em> (20), 8897–8901. <a class="pub-link" href="https://doi.org/10.1021/jacs.2c02818" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="15">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Joly, N.; Escayola, S.; Viñas, E.; Gaillard, S.; Solà, M.; Renaud, J.-L.; Poater, A. Knölker Iron Catalysts for Hydrogenation Revisited: A Nonspectator Solvent and Fine-Tuning. <em>Organometallics</em> <strong>2022</strong>, <em>41</em> (10), 1204–1215. <a class="pub-link" href="https://doi.org/10.1021/acs.organomet.2c00099" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="14">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Vos, E.; Yildiz, C. B.; Corral, I.; Jana, A.; Salvador, P. The Oxidation State in Low-Valent Beryllium and Magnesium Compounds. <em>Chem. Sci.</em> <strong>2022</strong>, <em>13</em> (22), 6583–6591. <a class="pub-link" href="https://doi.org/10.1039/D2SC01401G" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="13">
+<div class="pub-row"><img alt="TOC graphic for publication 13" class="pub-toc-img" loading="lazy" src="assets/toc/p13-TOC.jpeg"/>
+              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Aldossary, A.; Salvador, P.; Head-Gordon, M. Oxidation State Localized Orbitals: A Method for Assigning Oxidation States Using Optimally Fragment-Localized Orbitals and a Fragment Orbital Localization Index. <em>J. Chem. Theory Comput.</em> <strong>2022</strong>, <em>18</em> (1), 309–322. <a class="pub-link" href="https://doi.org/10.1021/acs.jctc.1c01011" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="12">
+<div class="pub-row"><img alt="TOC graphic for publication 12" class="pub-toc-img" loading="lazy" src="assets/toc/p12-TOC.jpeg"/>
+              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Danés, S.; Andrada, D. M.; Salvador, P. Unveiling the Electronic Structure of the Bi(+1)/Bi(+3) Redox Couple on NCN and NNN Pincer Complexes. <em>Inorg. Chem.</em> <strong>2021</strong>, <em>60</em> (23), 17657–17668. <a class="pub-link" href="https://doi.org/10.1021/acs.inorgchem.1c02252" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="11">
+<div class="pub-row"><img alt="TOC graphic for publication 11" class="pub-toc-img" loading="lazy" src="assets/toc/p11-TOC.jpeg"/>
+              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Van der Mynsbrugge, J.; Bell, A. T.; Salvador, P.; Head-Gordon, M. Facing the Challenges of Borderline Oxidation State Assignments Using State-of-the-Art Computational Methods. <em>Inorg. Chem.</em> <strong>2020</strong>, <em>59</em> (20), 15410–15420. <a class="pub-link" href="https://doi.org/10.1021/acs.inorgchem.0c02405" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="10">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; D'Alterio, M. C.; Talarico, G.; Minami, Y.; Hiyama, T.; Poater, A. Allyl Monitorization of the Regioselective Pd-Catalyzed Annulation of Alkylnyl Aryl Ethers Leading to Bismethylenechromanes. <em>J. Org. Chem.</em> <strong>2020</strong>, <em>85</em> (19), 12262–12269. <a class="pub-link" href="https://doi.org/10.1021/acs.joc.0c01503" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="9">
+<p class="pub-ref">Ramos, M.; Poater, J.; Villegas-Escobar, N.; <strong>Gimferrer, M.</strong>; Toro-Labbé, A.; Miralles-Cuevas, S.; Llobet, A.; Poater, A. Phenoxylation of Alkynes through Mono‐ and Dual Activation Using Group 11 (Cu, Ag, Au) Catalysts. <em>Eur. J. Inorg. Chem.</em> <strong>2020</strong>, <em>2020</em> (11–12), 1123–1134. <a class="pub-link" href="https://doi.org/10.1002/ejic.201901220" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="8">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Comas-Vilà, G.; Salvador, P. Can We Safely Obtain Formal Oxidation States from Centroids of Localized Orbitals? <em>Molecules</em> <strong>2020</strong>, <em>25</em> (1), 234. <a class="pub-link" href="https://doi.org/10.3390/molecules25010234" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="7">
+<div class="pub-row"><img alt="TOC graphic for publication 7" class="pub-toc-img" loading="lazy" src="assets/toc/p7-TOC.jpeg"/>
+              <p class="pub-ref"><strong>Gimferrer, M.</strong>; Salvador, P.; Poater, A. Computational Monitoring of Oxidation States in Olefin Metathesis. <em>Organometallics</em> <strong>2019</strong>, <em>38</em> (24), 4585–4592. <a class="pub-link" href="https://doi.org/10.1021/acs.organomet.9b00591" rel="noopener" target="_blank">DOI</a></p></div>
+</li>
+<li data-num="6">
+<p class="pub-ref">Masdemont, J.; Luque-Urrutia, J. A.; <strong>Gimferrer, M.</strong>; Milstein, D.; Poater, A. Mechanism of Coupling of Alcohols and Amines To Generate Aldimines and H<sub>2</sub> by a Pincer Manganese Catalyst. <em>ACS Catal.</em> <strong>2019</strong>, <em>9</em> (3), 1662–1669. <a class="pub-link" href="https://doi.org/10.1021/acscatal.8b04175" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="5">
+<p class="pub-ref">Poater, J.; <strong>Gimferrer, M.</strong>; Poater, A. Covalent and Ionic Capacity of MOFs To Sorb Small Gas Molecules. <em>Inorg. Chem.</em> <strong>2018</strong>, <em>57</em> (12), 6981–6990. <a class="pub-link" href="https://doi.org/10.1021/acs.inorgchem.8b00670" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="4">
+<p class="pub-ref">Naji-Rad, E.; <strong>Gimferrer, M.</strong>; Bahri-Laleh, N.; Nekoomanesh-Haghighi, M.; Poater, A. Exploring Basic Components Effect on the Catalytic Efficiency of Chevron-Phillips Catalyst in Ethylene Trimerization. <em>Catalysts</em> <strong>2018</strong>, <em>8</em> (6), 224. <a class="pub-link" href="https://doi.org/10.3390/catal8060224" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="3">
+<p class="pub-ref"><strong>Gimferrer, M.</strong>; Minami, Y.; Noguchi, Y.; Hiyama, T.; Poater, A. Monitoring of the Phosphine Role in the Mechanism of Palladium-Catalyzed Benzosilole Formation from Aryloxyethynyl Silanes. <em>Organometallics</em> <strong>2018</strong>, <em>37</em> (9), 1456–1461. <a class="pub-link" href="https://doi.org/10.1021/acs.organomet.8b00102" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="2">
+<p class="pub-ref">Luque-Urrutia, J. A.; <strong>Gimferrer, M.</strong>; Casals-Cruanas, E.; Poater, A. In Silico Switch from Second- to First-Row Transition Metals in Olefin Metathesis: From Ru to Fe and from Rh to Co. <em>Catalysts</em> <strong>2017</strong>, <em>7</em> (12), 389. <a class="pub-link" href="https://doi.org/10.3390/catal7120389" rel="noopener" target="_blank">DOI</a></p>
+</li>
+<li data-num="1">
+<p class="pub-ref">Skara, G.; <strong>Gimferrer, M.</strong>; De Proft, F.; Salvador, P.; Pinter, B. Scrutinizing the Noninnocence of Quinone Ligands in Ruthenium Complexes: Insights from Structural, Electronic, Energy, and Effective Oxidation State Analyses. <em>Inorg. Chem.</em> <strong>2016</strong>, <em>55</em> (5), 2185–2199. <a class="pub-link" href="https://doi.org/10.1021/acs.inorgchem.5b02543" rel="noopener" target="_blank">DOI</a></p>
+</li>
+</ol>
+</div>
+</section>
+<!-- NEWS -->
+<section class="section" id="news">
+<div class="container">
+<h2>News</h2>
+<ul class="timeline">
+<li>
+<time datetime="2025-06">June 2025</time>
+<p>
               Awarded a Volkswagen Foundation grant as principal investigator under the NEXT – Quantum
-              Biology (2025) call. Individual funding of 362,680&nbsp;€ (total project ~2M&nbsp;€) for
+              Biology (2025) call. Individual funding of 362,680 € (total project ~2M €) for
               research on chemical bonding algorithms in protein structure refinement, in collaboration
               with DESY, the University of Hamburg, and RWTH Aachen (2026–2030).
             </p>
-          </li>
-          <li>
-            <time datetime="2025">2025</time>
-            <p>
+</li>
+<li>
+<time datetime="2025">2025</time>
+<p>
               Invited lectures at the POMMESS symposium (Göttingen, DE) and at the 10th International
               Charge Density Meeting — ICDM10 (Durham, UK); oral presentation at WATOC2025 (Oslo, NO).
             </p>
-          </li>
-          <li>
-            <time datetime="2025">2025</time>
-            <p>
+</li>
+<li>
+<time datetime="2025">2025</time>
+<p>
               Three papers published: multicomponent DFT for H-bond shifts
               (<em>Chemical Science</em>), NCI orbital decomposition
               (<em>PCCP</em>), and bonding descriptors in machine learning
               (<em>Coordination Chemistry Reviews</em>).
             </p>
-          </li>
-          <li>
-            <time datetime="2024">2024</time>
-            <p>
+</li>
+<li>
+<time datetime="2024">2024</time>
+<p>
               APOST-3D v1.0 released and described in the
               <a href="https://doi.org/10.1063/5.0206187" rel="noopener"><em>Journal of Chemical Physics</em></a>;
               Rhenium alkyne catalysis study published in <em>Inorganic Chemistry</em>.
             </p>
-          </li>
-          <li>
-            <time datetime="2023-08">August 2023</time>
-            <p>
+</li>
+<li>
+<time datetime="2023-08">August 2023</time>
+<p>
               Started as postdoctoral researcher in the Computational Chemistry and Biochemistry Group
               at the University of Göttingen (group of Prof. Ricardo Mata).
             </p>
-          </li>
-          <li>
-            <time datetime="2023">2023</time>
-            <p>
+</li>
+<li>
+<time datetime="2023">2023</time>
+<p>
               PhD in Chemistry awarded by the University of Girona. Thesis on real-space chemical
               bonding analysis supervised by Prof. Pedro Salvador.
             </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- CV -->
-    <section id="cv" class="section section-alt">
-      <div class="container">
-        <h2>CV</h2>
-        <p class="section-intro">
+</li>
+</ul>
+</div>
+</section>
+<!-- CV -->
+<section class="section section-alt" id="cv">
+<div class="container">
+<h2>CV</h2>
+<p class="section-intro">
           A short summary of education and appointments. A full PDF is linked at the end.
         </p>
-        <div class="cv-grid">
-          <div class="cv-block">
-            <h3>Education</h3>
-            <ul class="cv-list">
-              <li><strong>PhD in Chemistry</strong> — University of Girona (ES), 2023</li>
-              <li><strong>MSc in Advanced Catalysis and Molecular Modelling</strong> — University of Girona (ES), 2017</li>
-              <li><strong>BSc in Chemistry</strong> — University of Girona (ES), 2016</li>
-            </ul>
-          </div>
-          <div class="cv-block">
-            <h3>Appointments</h3>
-            <ul class="cv-list">
-              <li><strong>Postdoctoral Researcher</strong> — University of Göttingen (DE), 2023–present</li>
-              <li><strong>Graduate Researcher (FI Fellow)</strong> — University of Girona (ES), 2018–2023</li>
-              <li><strong>Research Assistant</strong> — University of Girona (ES), 2016–2018</li>
-            </ul>
-          </div>
-        </div>
-        <div class="cv-block" style="margin-top: 1.5rem;">
-          <h3>Selected Grants (PI)</h3>
-          <ul class="cv-list">
-            <li><strong>Volkswagen Foundation NEXT – Quantum Biology</strong> — 362,680&nbsp;€, 2026–2030</li>
-            <li><strong>NHR Starter Project (NHR-NORD@Göttingen)</strong> — 300k core-hours, 2025–2026</li>
-            <li><strong>HPC-Europa3 Transnational Access (×2)</strong> — 2,400&nbsp;€ + 168k core-hours each, 2020 &amp; 2022</li>
-          </ul>
-        </div>
-
-        <div class="map-section">
-          <h3>Research Map</h3>
-          <p class="section-intro" style="margin-bottom: 1rem;">Institutions and research groups I have worked with. Click any pin for details.</p>
-          <div id="research-map" style="height:420px"></div>
-          <div class="map-legend">
-            <span><span class="map-dot" style="background:var(--forest)"></span>Current position</span>
-            <span><span class="map-dot" style="background:var(--forest-soft)"></span>PhD &amp; studies</span>
-            <span><span class="map-dot" style="background:var(--gold)"></span>Research stay</span>
-          </div>
-        </div>
-        <p><a class="btn btn-primary" href="assets/cv.pdf">Download full CV (PDF)</a></p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <div class="contact-grid">
-          <div>
-            <p>
+<div class="cv-grid">
+<div class="cv-block">
+<h3>Education</h3>
+<ul class="cv-list">
+<li><strong>PhD in Chemistry</strong> — University of Girona (ES), 2023</li>
+<li><strong>MSc in Advanced Catalysis and Molecular Modelling</strong> — University of Girona (ES), 2017</li>
+<li><strong>BSc in Chemistry</strong> — University of Girona (ES), 2016</li>
+</ul>
+</div>
+<div class="cv-block">
+<h3>Appointments</h3>
+<ul class="cv-list">
+<li><strong>Postdoctoral Researcher</strong> — University of Göttingen (DE), 2023–present</li>
+<li><strong>Graduate Researcher (FI Fellow)</strong> — University of Girona (ES), 2018–2023</li>
+<li><strong>Research Assistant</strong> — University of Girona (ES), 2016–2018</li>
+</ul>
+</div>
+</div>
+<div class="cv-block" style="margin-top: 1.5rem;">
+<h3>Selected Grants (PI)</h3>
+<ul class="cv-list">
+<li><strong>Volkswagen Foundation NEXT – Quantum Biology</strong> — 362,680 €, 2026–2030</li>
+<li><strong>NHR Starter Project (NHR-NORD@Göttingen)</strong> — 300k core-hours, 2025–2026</li>
+<li><strong>HPC-Europa3 Transnational Access (×2)</strong> — 2,400 € + 168k core-hours each, 2020 &amp; 2022</li>
+</ul>
+</div>
+<div class="map-section">
+<h3>Research Map</h3>
+<p class="section-intro" style="margin-bottom: 1rem;">Institutions and research groups I have worked with. Click any pin for details.</p>
+<div id="research-map" style="height:420px"></div>
+<div class="map-legend">
+<span><span class="map-dot" style="background:var(--forest)"></span>Current position</span>
+<span><span class="map-dot" style="background:var(--forest-soft)"></span>PhD &amp; studies</span>
+<span><span class="map-dot" style="background:var(--gold)"></span>Research stay</span>
+</div>
+</div>
+<p><a class="btn btn-primary" href="assets/cv.pdf">Download full CV (PDF)</a></p>
+</div>
+</section>
+<!-- CONTACT -->
+<section class="section" id="contact">
+<div class="container">
+<h2>Contact</h2>
+<div class="contact-grid">
+<div>
+<p>
               The best way to reach me is by email. I'm also active on the profiles below —
               feel free to connect.
             </p>
-            <ul class="contact-links">
-              <li><span>Work</span><a href="mailto:marti.gimferrerandres@uni-goettingen.de">marti.gimferrerandres@uni-goettingen.de</a></li>
-              <li><span>Personal</span><a href="mailto:mgimferrer18@gmail.com">mgimferrer18@gmail.com</a></li>
-              <li><span>GitHub</span><a href="https://github.com/mgimferrer" rel="noopener">github.com/mgimferrer</a></li>
-              <li><span>Scholar</span><a href="https://scholar.google.com/citations?user=Ib8HIWoAAAAJ&hl=en" rel="noopener">Google Scholar</a></li>
-              <li><span>ORCID</span><a href="https://orcid.org/0000-0001-5222-2201" rel="noopener">0000-0001-5222-2201</a></li>
-              <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/marti-gimferrer-b71036137" rel="noopener">marti-gimferrer</a></li>
-            </ul>
-          </div>
-          <address class="address-card">
-            <p>
-              <strong>Office address</strong><br />
-              Institute of Physical Chemistry<br />
-              University of Göttingen<br />
-              Göttingen, Germany
+<ul class="contact-links">
+<li><span>Work</span><a href="mailto:marti.gimferrerandres@uni-goettingen.de">marti.gimferrerandres@uni-goettingen.de</a></li>
+<li><span>Personal</span><a href="mailto:mgimferrer18@gmail.com">mgimferrer18@gmail.com</a></li>
+<li><span>GitHub</span><a href="https://github.com/mgimferrer" rel="noopener">github.com/mgimferrer</a></li>
+<li><span>Scholar</span><a href="https://scholar.google.com/citations?user=Ib8HIWoAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a></li>
+<li><span>ORCID</span><a href="https://orcid.org/0000-0001-5222-2201" rel="noopener">0000-0001-5222-2201</a></li>
+<li><span>LinkedIn</span><a href="https://www.linkedin.com/in/marti-gimferrer-b71036137" rel="noopener">marti-gimferrer</a></li>
+</ul>
+</div>
+<address class="address-card">
+<p>
+<strong>Office address</strong><br/>
+              Dr. Martí Gimferrer<br/>
+              Institut für Physikalische Chemie<br/>
+              Georg-August-Universität Göttingen<br/>
+              Tammannstr. 6<br/>
+              37077 Göttingen<br/>
+              Germany
             </p>
-          </address>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Martí Gimferrer. Built with plain HTML &amp; CSS. Hosted on GitHub Pages.</p>
-      <p><a href="#home">Back to top ↑</a></p>
-    </div>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-  <script src="script.js"></script>
+</address>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>© <span id="year"></span> Martí Gimferrer. Built with plain HTML &amp; CSS. Hosted on GitHub Pages.</p>
+<p><a href="#home">Back to top ↑</a></p>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
