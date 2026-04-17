@@ -203,8 +203,7 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 
 ## Known issues / pending work
 
-- The **Research** section cards have placeholder `<div class="card-media">` elements with no images — real research images could be added later.
-- The research card intro text still contains a placeholder sentence ("replace titles, summaries…") that should be removed when the section is finalised.
+- The **Research** section is complete: intro paragraph, three cards with updated content from the research statement, and figures extracted from the PDF (`assets/research-fig1.png` for Nuclear Quantum Effects, `assets/research-fig2.png` for Machine Learning & Structural Refinement). The Chemical Bonding Analysis card retains the placeholder `<div class="card-media">` gradient — a real image could be added later.
 - `assets/tocs/` is populated and `data/tocs.json` manifest is current — 22/30 publications have local TOC images.
 - p21 (10.1063/5.0142778) and p23 (10.1063/5.0206187) are AIP — blocked by 403; no TOC image.
 - p17 (10.1039/d2sc05769g) is an RSC reply/comment — no graphical abstract available.

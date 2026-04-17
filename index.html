@@ -45,8 +45,8 @@
 <h1>Hello — I'm <span class="accent">Martí Gimferrer</span>.</h1>
 <p class="lede">
             Postdoctoral researcher at the Institute of Physical Chemistry, University of Göttingen.
-            I develop and apply quantum-chemical methods for chemical bonding analysis, with contributions
-            to major software packages including Q-Chem and APOST-3D.
+            I develop and apply quantum-chemical methods for chemical bonding analysis and related phenomena,
+            with contributions to major software packages including Q-Chem and APOST-3D.
           </p>
 <div class="hero-cta">
 <a class="btn btn-primary" href="#research">Explore research</a>
@@ -83,7 +83,7 @@
               of chemical bonding algorithms for improving the refinement of protein crystal structures.
             </p>
 <p>
-              Over 8+ years my work is documented in 30 publications (17 as first/corresponding author,
+              Over 8+ years of experience, my work is documented in 30 publications (17 as first/corresponding author,
               h-index 18) and in software actively used by the chemical community. See my
               <a href="#cv">CV</a> for the full record.
             </p>
@@ -91,11 +91,11 @@
 <aside class="quick-facts">
 <h3>Quick facts</h3>
 <ul>
-<li><strong>Role:</strong> Postdoctoral Researcher</li>
-<li><strong>Group:</strong> Computational Chemistry and Biochemistry Group</li>
-<li><strong>Institution:</strong> University of Göttingen</li>
-<li><strong>Location:</strong> Göttingen, Germany</li>
-<li><strong>Interests:</strong> Chemical Bonding, Theoretical Chemistry, Catalysis, Nuclear Quantum Effects</li>
+<li><span class="qf-icon">🎓</span><strong>Role</strong> Postdoctoral Researcher</li>
+<li><span class="qf-icon">🏛️</span><strong>Group</strong> Computational Chemistry and Biochemistry Group</li>
+<li><span class="qf-icon">🏫</span><strong>Institution</strong> University of Göttingen</li>
+<li><span class="qf-icon">📍</span><strong>Location</strong> Göttingen, Germany</li>
+<li><span class="qf-icon">🔬</span><strong>Interests</strong> Chemical Bonding, Theoretical Chemistry, Catalysis, Nuclear Quantum Effects</li>
 </ul>
 </aside>
 </div>
@@ -105,38 +105,50 @@
 <section class="section" id="research">
 <div class="container">
 <h2>Research</h2>
+<p class="section-intro">
+          My research spans both PhD and postdoctoral work and is defined by its multidisciplinary character.
+          The common thread is a simple but powerful idea: first understand the chemical phenomenon, then find —
+          or build — the computational tool that provides the necessary insight. This philosophy has led me to
+          bridge theoretical and experimental chemistry rather than stay within a single discipline. The three
+          research directions below all grow from the most fundamental and elusive concept in chemistry:
+          chemical bonding.
+        </p>
 <div class="card-grid">
 <article class="card">
-<div aria-hidden="true" class="card-media"></div>
+<img alt="Chemical bonding analysis: overlapping atomic density contours" class="card-media-img" src="assets/research-fig-cba.png"/>
 <h3>Chemical Bonding Analysis</h3>
 <p>
-              Development and application of real-space methods for analysing electronic wave functions —
-              oxidation states, atomic/molecular descriptors, energy decomposition, and interacting quantum
-              atoms. Key contributions include the open-source
-              <a href="https://doi.org/10.1063/5.0206187" rel="noopener">APOST-3D</a> package and
-              integration of oxidation-state localized orbitals into
-              <a href="https://doi.org/10.1021/acs.jctc.1c01011" rel="noopener">Q-Chem</a>.
+              A central theme of my research is the development of quantum-chemical tools to extract
+              chemical bonding information from electronic wave functions. This includes rigorous
+              strategies to assign oxidation states, the design of fragment orbital localisation
+              schemes, and energy decomposition approaches for atomic and inter-atomic contributions.
+              These tools are collected in the open-source
+              <a href="https://doi.org/10.1063/5.0206187" rel="noopener">APOST-3D</a> code and
+              integrated into <a href="https://doi.org/10.1021/acs.jctc.1c01011" rel="noopener">Q-Chem</a>.
             </p>
 </article>
 <article class="card">
-<div aria-hidden="true" class="card-media"></div>
+<img alt="Figure 1: harmonic vs anharmonic PES and impact of multicomponent methods on H-atom position" class="card-media-img" src="assets/research-fig1.png"/>
 <h3>Nuclear Quantum Effects</h3>
 <p>
-              Modelling of proton and hydrogen-bond phenomena beyond the Born–Oppenheimer approximation.
-              This includes the development of multicomponent DFT approaches for
-              <a href="https://doi.org/10.1039/D5SC02165K" rel="noopener">accurate vibrational H-bond
-              shift predictions</a>, and NCI orbital decomposition tools for characterising
-              non-covalent interactions.
+              When dealing with light nuclei such as hydrogen, the Born–Oppenheimer approximation
+              breaks down and nuclear quantum effects (NQEs) become critical. I develop and apply
+              multicomponent methods — in particular Nuclear-Electronic Orbital (NEO) theory — which
+              treat electrons and selected nuclei on the same quantum-mechanical footing. This enables
+              accurate prediction of anharmonic vibrational frequencies and hydrogen-bond shifts at
+              a cost accessible to large molecular systems.
             </p>
 </article>
 <article class="card">
-<div aria-hidden="true" class="card-media"></div>
+<img alt="Figure 2: spherical vs aspherical atomic densities and the SAM refinement method" class="card-media-img" src="assets/research-fig2.png"/>
 <h3>Machine Learning &amp; Structural Refinement</h3>
 <p>
-              Encoding chemical bonding information as descriptors for machine learning models and for
-              improving the refinement of high-resolution X-ray diffraction data (Olex2 / Hirshfeld
-              atom refinement). Funded in part by a 2025 Volkswagen Foundation NEXT – Quantum Biology
-              grant in collaboration with DESY, the University of Hamburg, and RWTH Aachen.
+              High-resolution X-ray diffraction data demand refinement models that go beyond the
+              independent atom model (IAM). I develop quantum-chemical scattering factors that
+              encode bonding, polarisation, and partial charges, while keeping the number of
+              refinement parameters manageable. Chemical bonding descriptors derived from these
+              densities are also used as features in machine learning models. This work is funded
+              by a 2025 Volkswagen Foundation NEXT – Quantum Biology grant (ELECTRA, ~2M€).
             </p>
 </article>
 </div>
@@ -147,9 +159,7 @@
 <div class="container">
 <h2>Publications</h2>
 <p class="section-intro">
-          30 publications (17 as first/corresponding author, h‑index 18).
-          Numbered oldest‑to‑newest; displayed newest‑first.
-          <sup>*</sup> = corresponding author.
+          30 publications · 13 as first author · 4 as corresponding author (<sup>*</sup>).
           Full list: <a href="https://scholar.google.com/citations?user=Ib8HIWoAAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>
           · <a href="https://orcid.org/0000-0001-5222-2201" rel="noopener">ORCID</a>.
         </p>

@@ -258,20 +258,34 @@ a:hover { color: var(--forest-deep); text-decoration-thickness: 2px; }
 .quick-facts {
   background: var(--paper);
   border: 1px solid var(--line);
+  border-left: 4px solid var(--forest);
   border-radius: var(--radius-lg);
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem 1.75rem;
   box-shadow: var(--shadow-sm);
 }
 .quick-facts h3 {
   margin-top: 0;
   color: var(--forest-deep);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
   border-bottom: 1px solid var(--line);
-  padding-bottom: 0.5rem;
-  margin-bottom: 0.75rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.25rem;
 }
 .quick-facts ul { list-style: none; padding: 0; margin: 0; }
-.quick-facts li { padding: 0.25rem 0; font-size: 0.97rem; color: var(--ink-soft); }
-.quick-facts strong { color: var(--ink); }
+.quick-facts li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.55rem 0;
+  font-size: 0.96rem;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+}
+.quick-facts li:last-child { border-bottom: none; }
+.quick-facts .qf-icon { font-size: 1rem; flex-shrink: 0; }
+.quick-facts strong { color: var(--forest); min-width: 5.5rem; display: inline-block; }
 
 /* ---------- Research cards ---------- */
 .card-grid {
@@ -296,6 +310,16 @@ a:hover { color: var(--forest-deep); text-decoration-thickness: 2px; }
     linear-gradient(135deg, rgba(47,93,58,0.18), rgba(184,138,61,0.18)),
     repeating-linear-gradient(45deg, var(--cream) 0 10px, var(--cream-2) 10px 20px);
   margin-bottom: 0.8rem;
+}
+.card-media-img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: var(--radius);
+  background: #fff;
+  margin-bottom: 0.8rem;
+  display: block;
 }
 
 /* ---------- Publications ---------- */
