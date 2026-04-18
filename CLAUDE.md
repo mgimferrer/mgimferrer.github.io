@@ -213,11 +213,14 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 - Card-based layout: each `.timeline li` has `background: var(--paper)`, `border-left: 4px solid var(--forest-soft)`, `border-radius: var(--radius)`.
 - `.timeline-header` flexbox row: date on the left, `.timeline-badge` pill on the right.
 - Badge classes: `.badge-grant`, `.badge-pub`, `.badge-talk`, `.badge-position`, `.badge-degree`.
-- User indicated content/text edits may come later.
+- Current items (newest → oldest): June 2025 Grant, 2025 Talk, 2025 Pub (two papers: Chem. Sci. + PCCP), 2025 Pub (four collaborations: Appl. Surf. Sci., Angew. Chem., J. Phys. Chem. A, Chem. Sci.), 2026 Pub (CCR review), 2024 Pub, Aug 2023 Position, 2023 Award (best PhD thesis), 2023 Degree.
+- Grant description updated: MPI for Multidisciplinary Sciences (was RWTH Aachen).
 
 ### CV section
 - `.cv-card` blocks with emoji h3 headings (💼 Positions, 🎓 Education, 🏆 Awards & Grants).
+- Positions heading (was "Appointments") updated to "Positions".
 - `.cv-list` items use `.cv-main` / `.cv-sub` / `.cv-year` pattern (flex row, year right-aligned).
+- Grants sub-text updated: "362,680 € (total 2M €) · DESY, Univ. Hamburg, MPI Multidisciplinary Sciences".
 
 ### Contact section
 - `.contact-links-card` wrapper card (same card style as quick-facts and CV).
