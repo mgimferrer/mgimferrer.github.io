@@ -237,4 +237,4 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 - p29 (10.1016/j.apsusc.2025.163050) and p30 (10.1016/j.ccr.2025.217383) are Elsevier — fetch did not succeed; no TOC image.
 - p2, p4, p8 are MDPI (10.3390/) — not covered by fetch-tocs.py publisher routing; no TOC image.
 - Chemical Bonding Analysis card image (`assets/research-fig-cba.png`) is user-provided — could be replaced with a more representative figure later.
-- News section text/content: user indicated further edits (new items, text changes) are pending.
+- All 30 publication author lists have been fully verified and corrected (2026-04-18): p2 accent fix, p14/p15 missing authors added, p16 completely corrected (Heinemann F.W., Momper D.M., Kay C.W.M.; Meyer K. removed), p17/p18/p26/p28 et al. expanded; p26 title typo fixed (Pnictoranides). No et al. remain.
