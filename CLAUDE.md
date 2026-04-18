@@ -201,11 +201,37 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 
 ---
 
+## Section design notes
+
+### Research section
+- Intro paragraph present before the card grid.
+- Three cards: Chemical Bonding Analysis (`assets/research-fig-cba.png`), Nuclear Quantum Effects (`assets/research-fig1.png`), Machine Learning & Structural Refinement (`assets/research-fig2.png`).
+- Images use `.card-media-img` class (width: 100%; height: 160px; object-fit: contain).
+- All three card images are sourced from user-provided files (box1/box2/box3).
+
+### News section
+- Card-based layout: each `.timeline li` has `background: var(--paper)`, `border-left: 4px solid var(--forest-soft)`, `border-radius: var(--radius)`.
+- `.timeline-header` flexbox row: date on the left, `.timeline-badge` pill on the right.
+- Badge classes: `.badge-grant`, `.badge-pub`, `.badge-talk`, `.badge-position`, `.badge-degree`.
+- User indicated content/text edits may come later.
+
+### CV section
+- `.cv-card` blocks with emoji h3 headings (💼 Positions, 🎓 Education, 🏆 Awards & Grants).
+- `.cv-list` items use `.cv-main` / `.cv-sub` / `.cv-year` pattern (flex row, year right-aligned).
+
+### Contact section
+- `.contact-links-card` wrapper card (same card style as quick-facts and CV).
+- Emoji icon spans (`.cl-icon`) with min-width labels for alignment.
+- Responsive breakpoint updated: `.contact-links-card` added to the 820px stacking rule.
+
+---
+
 ## Known issues / pending work
 
-- The **Research** section is complete: intro paragraph, three cards with updated content from the research statement, and figures extracted from the PDF (`assets/research-fig1.png` for Nuclear Quantum Effects, `assets/research-fig2.png` for Machine Learning & Structural Refinement). The Chemical Bonding Analysis card retains the placeholder `<div class="card-media">` gradient — a real image could be added later.
 - `assets/tocs/` is populated and `data/tocs.json` manifest is current — 22/30 publications have local TOC images.
 - p21 (10.1063/5.0142778) and p23 (10.1063/5.0206187) are AIP — blocked by 403; no TOC image.
 - p17 (10.1039/d2sc05769g) is an RSC reply/comment — no graphical abstract available.
 - p29 (10.1016/j.apsusc.2025.163050) and p30 (10.1016/j.ccr.2025.217383) are Elsevier — fetch did not succeed; no TOC image.
 - p2, p4, p8 are MDPI (10.3390/) — not covered by fetch-tocs.py publisher routing; no TOC image.
+- Chemical Bonding Analysis card image (`assets/research-fig-cba.png`) is user-provided — could be replaced with a more representative figure later.
+- News section text/content: user indicated further edits (new items, text changes) are pending.
