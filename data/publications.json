@@ -650,6 +650,49 @@
         "Gimferrer, M.",
         "Poater, A."
       ]
+    },
+    {
+      "num": 31,
+      "doi": "10.1063/5.0326182",
+      "corresponding_author": true,
+      "year": 2026,
+      "journal_full": "The Journal of Chemical Physics",
+      "journal_abbr": "J. Chem. Phys.",
+      "volume": "164",
+      "issue": "16",
+      "first_page": "",
+      "last_page": "",
+      "article_number": "164105",
+      "title": "On the Impact of Nuclear Quantum Effects on Quantum Chemical Topology",
+      "authors": [
+        "Gimferrer, M.",
+        "Martín Pendás, Á."
+      ]
+    },
+    {
+      "num": 32,
+      "doi": "10.1039/d6dt01038e",
+      "corresponding_author": false,
+      "year": 2026,
+      "journal_full": "Dalton Transactions",
+      "journal_abbr": "Dalton Trans.",
+      "volume": "",
+      "issue": "",
+      "first_page": "",
+      "last_page": "",
+      "article_number": "",
+      "title": "A Non-Innocent Radical-Anionic Nitrosoarene Ligand Regularizes a Formal Palladium(I) Complex to Palladium(II)",
+      "authors": [
+        "Ramadan, D. R.",
+        "Fouad, M. A.",
+        "Ferretti, F.",
+        "Brotons-Rufes, A.",
+        "Macchi, P.",
+        "Sorace, L.",
+        "Gimferrer, M.",
+        "Costabile, C.",
+        "Ragaini, F."
+      ]
     }
   ]
 }
