@@ -20,7 +20,7 @@
   // ── 1. Load local manifest ────────────────────────────────────────────────
   let manifest = {};
   try {
-    const r = await fetch('data/tocs.json');
+    const r = await fetch('data/tocs.json', { cache: 'no-store' });
     if (r.ok) manifest = await r.json();
   } catch (_) {
     // No manifest yet — run scripts/fetch-tocs.py to generate it.
