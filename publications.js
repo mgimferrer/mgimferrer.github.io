@@ -47,9 +47,10 @@
    * Returns a URL string, or null if nothing is available.
    */
   async function resolveImage(doi, manifest) {
-    // 1. Local pre-fetched image
+    // 1. Local pre-fetched image (or direct URL stored in manifest)
     if (manifest[doi]) {
-      return `assets/tocs/${manifest[doi]}`;
+      const val = manifest[doi];
+      return val.startsWith('http') ? val : `assets/tocs/${val}`;
     }
 
     // 2. Crossref API fallback — some publishers register image links there
