@@ -321,7 +321,8 @@ def main():
 
         for i, (doi, pfx) in enumerate(doi_list, 1):
             existing = manifest.get(doi)
-            if existing and os.path.exists(os.path.join(OUTPUT_DIR, existing)):
+            # Skip only if a local file is already present (not a URL placeholder)
+            if existing and not existing.startswith('http') and os.path.exists(os.path.join(OUTPUT_DIR, existing)):
                 skipped += 1
                 continue
 

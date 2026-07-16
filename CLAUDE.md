@@ -235,7 +235,7 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 
 - `assets/tocs/` is populated and `data/tocs.json` manifest is current — 22/32 publications have local TOC images; p30 and p32 use direct CDN URLs in the manifest.
 - p21 (10.1063/5.0142778), p23 (10.1063/5.0206187), and p31 (10.1063/5.0326182) are AIP — blocked by 403; no TOC image.
-- p32 (10.1039/D6DT01038E) is RSC Advance Article — re-run fetch-tocs.py once it is paginated to pick up its TOC locally.
+- p32 (10.1039/D6DT01038E) is RSC Advance Article — RSC blocks hotlinking so the image must be stored locally. Run fetch-tocs.py to download it (script uses requests with no Referer, which RSC allows). Re-run again once p32 is paginated to get the final version.
 - p17 (10.1039/d2sc05769g) is an RSC reply/comment — no graphical abstract available.
 - p29 (10.1016/j.apsusc.2025.163050) is Elsevier — fetch did not succeed; no TOC image.
 - p30 TOC: direct Elsevier CDN URL stored in tocs.json (https://ars.els-cdn.com/content/image/1-s2.0-S0010854525009531-ga1.jpg).
