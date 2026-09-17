@@ -217,7 +217,7 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17; p33/
 - Card-based layout: each `.timeline li` has `background: var(--paper)`, `border-left: 4px solid var(--forest-soft)`, `border-radius: var(--radius)`.
 - `.timeline-header` flexbox row: date on the left, `.timeline-badge` pill on the right.
 - Badge classes: `.badge-grant`, `.badge-pub`, `.badge-talk`, `.badge-position`, `.badge-degree`.
-- Current items (newest → oldest): Sept 2026 Pub (first sole-author manuscript, Theor. Chem. Acc.), Summer 2026 Talk (ESPA2026, DFT2026, CBOND2026 — nuclear quantum effects on molecular interactions), 2026 Pub (CCR review), June 2025 Grant, 2025 Talk, 2025 Pub (two papers: Chem. Sci. + PCCP), 2025 Pub (four collaborations: Appl. Surf. Sci., Angew. Chem., J. Phys. Chem. A, Chem. Sci.), 2024 Pub, Aug 2023 Position, 2023 Award (best PhD thesis), 2023 Degree.
+- Current items (newest → oldest): Sept 2026 Pub (two papers: first sole-author manuscript in Theor. Chem. Acc. + benchmark dataset paper in J. Chem. Phys.), Summer 2026 Talk (ESPA2026, DFT2026, CBOND2026 — nuclear quantum effects on molecular interactions), 2026 Pub (CCR review), June 2025 Grant, 2025 Talk, 2025 Pub (two papers: Chem. Sci. + PCCP), 2025 Pub (four collaborations: Appl. Surf. Sci., Angew. Chem., J. Phys. Chem. A, Chem. Sci.), 2024 Pub, Aug 2023 Position, 2023 Award (best PhD thesis), 2023 Degree.
 - Grant description updated: MPI for Multidisciplinary Sciences (was RWTH Aachen).
 
 ### CV section
