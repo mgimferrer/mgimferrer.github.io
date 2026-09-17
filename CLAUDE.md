@@ -67,7 +67,7 @@ Border radius: `--radius: 10px`, `--radius-lg: 16px`
 1. **Home / Hero** (`#home`) — name, tagline, portrait, two CTA buttons
 2. **About** (`#about`) — two-column: biography + quick-facts aside
 3. **Research** (`#research`) — three card grid: Chemical Bonding Analysis · Nuclear Quantum Effects · Machine Learning & Structural Refinement
-4. **Publications** (`#publications`) — ordered list of 32 papers (see below)
+4. **Publications** (`#publications`) — ordered list of 34 papers (see below)
 5. **News** (`#news`) — timeline of recent events
 6. **CV** (`#cv`) — timeline of positions + education; inline PDF link
 7. **Contact** (`#contact`) — email, ORCID, Google Scholar, office address + Leaflet map
@@ -77,15 +77,15 @@ Border radius: `--radius: 10px`, `--radius-lg: 16px`
 ## Publications section
 
 ### General rules
-- **32 publications** total (no corrigenda/errata included).
-- **Numbered 1 (oldest, 2016) → 32 (newest, 2026).**
-- **Displayed newest-first** in the HTML (p32 at top, p1 at bottom).
+- **34 publications** total (no corrigenda/errata included).
+- **Numbered 1 (oldest, 2016) → 34 (newest, 2026).**
+- **Displayed newest-first** in the HTML (p34 at top, p1 at bottom).
 - Number badges use `data-num="N"` on the `<li>` and `content: attr(data-num)` in CSS — no JS counter.
 - Each `<li>` also carries `data-doi="10.xxxx/..."` (lowercase) used by `publications.js` to inject TOC images.
 - Citation format: **ACS style** — `Authors. Title. *J. Abbrev.* **Year**, *vol.* (issue), pages. DOI`
 - In HTML: `<em>` for journal, `<strong>` for year, `<em>` for volume — per ACS convention.
 - **Martí Gimferrer's name** is always `<strong>Gimferrer, M.</strong>` (bold).
-- **Corresponding author** marker `<sup>*</sup>` appears only on **p22, p23, p25, p30**.
+- **Corresponding author** marker `<sup>*</sup>` appears only on **p22, p23, p25, p30, p31, p33**.
 
 ### Layout & CSS classes
 Each `<li>` carries two classes:
@@ -126,11 +126,11 @@ TOC images are no longer stored manually. The pipeline is:
 | 10.1063/ | AIP | — skipped | 403 even with bypass |
 | 10.3390/ | MDPI | — unknown | not in publisher routing |
 
-DOIs for p23 and p21 are AIP (10.1063/) — no TOC image can be fetched automatically.
+DOIs for p23, p21, and p31 are AIP (10.1063/) — no TOC image can be fetched automatically. p34 is also AIP (10.1063/) — same limitation.
 
 ### Adding a new publication
-1. Increment the total count in `<p class="section-intro">` (currently "32 publications").
-2. Also update the count in the About section (currently "32 publications (18 as first/corresponding author,").
+1. Increment the total count in `<p class="section-intro">` (currently "34 publications").
+2. Also update the count in the About section (currently "34 publications (19 as first/corresponding author,").
 3. Add `<li class="pub-even|pub-odd" data-num="N+1" data-doi="10.xxxx/...">` at the **top** of `<ol class="pub-list">`.
 4. Re-run `scripts/fetch-tocs.py` to pick up the new TOC automatically.
 
@@ -172,8 +172,10 @@ DOIs for p23 and p21 are AIP (10.1063/) — no TOC image can be fetched automati
 | 30 | 2026 | Tomasini, M. | *Coord. Chem. Rev.* | 10.1016/j.ccr.2025.217383 |
 | 31 | 2026 | **Gimferrer, M.** | *J. Chem. Phys.* | 10.1063/5.0326182 |
 | 32 | 2026 | Ramadan, D. R. | *Dalton Trans.* | 10.1039/D6DT01038E |
+| 33 | 2026 | **Gimferrer, M.** | *Theor. Chem. Acc.* | 10.1007/s00214-026-03322-9 |
+| 34 | 2026 | Schiebel, L. N. | *J. Chem. Phys.* | 10.1063/5.0346413 |
 
-Corresponding author (marked `*`): p22, p23, p25, p30, p31.
+Corresponding author (marked `*`): p22, p23, p25, p30, p31, p33.
 
 ---
 
@@ -196,10 +198,10 @@ Email (for scripts/API): marti.gimferrerandres@uni-goettingen.de
 
 ## Static publication data
 
-`data/publications.json` — complete static fallback with all 32 publications. Fields per entry:
+`data/publications.json` — complete static fallback with all 34 publications. Fields per entry:
 - `num`, `doi`, `year`, `title`, `authors` (array), `journal_full`, `journal_abbr`, `volume`, `issue`, `first_page`, `last_page`, `article_number`, `corresponding_author` (bool)
 
-Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
+Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17; p33/p34 added 2026-09-17.
 
 ---
 
@@ -215,7 +217,7 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 - Card-based layout: each `.timeline li` has `background: var(--paper)`, `border-left: 4px solid var(--forest-soft)`, `border-radius: var(--radius)`.
 - `.timeline-header` flexbox row: date on the left, `.timeline-badge` pill on the right.
 - Badge classes: `.badge-grant`, `.badge-pub`, `.badge-talk`, `.badge-position`, `.badge-degree`.
-- Current items (newest → oldest): June 2025 Grant, 2025 Talk, 2025 Pub (two papers: Chem. Sci. + PCCP), 2025 Pub (four collaborations: Appl. Surf. Sci., Angew. Chem., J. Phys. Chem. A, Chem. Sci.), 2026 Pub (CCR review), 2024 Pub, Aug 2023 Position, 2023 Award (best PhD thesis), 2023 Degree.
+- Current items (newest → oldest): Sept 2026 Pub (first sole-author manuscript, Theor. Chem. Acc.), Summer 2026 Talk (ESPA2026, DFT2026, CBOND2026 — nuclear quantum effects on molecular interactions), 2026 Pub (CCR review), June 2025 Grant, 2025 Talk, 2025 Pub (two papers: Chem. Sci. + PCCP), 2025 Pub (four collaborations: Appl. Surf. Sci., Angew. Chem., J. Phys. Chem. A, Chem. Sci.), 2024 Pub, Aug 2023 Position, 2023 Award (best PhD thesis), 2023 Degree.
 - Grant description updated: MPI for Multidisciplinary Sciences (was RWTH Aachen).
 
 ### CV section
@@ -233,9 +235,10 @@ Sourced from Crossref API (via browser) + index.html. Generated 2026-04-17.
 
 ## Known issues / pending work
 
-- `assets/tocs/` is populated and `data/tocs.json` manifest is current — 22/32 publications have local TOC images; p30 and p32 use direct CDN URLs in the manifest.
-- p21 (10.1063/5.0142778), p23 (10.1063/5.0206187), and p31 (10.1063/5.0326182) are AIP — blocked by 403; no TOC image.
-- p32 (10.1039/D6DT01038E) is RSC Advance Article — RSC blocks hotlinking so the image must be stored locally. Run fetch-tocs.py to download it (script uses requests with no Referer, which RSC allows). Re-run again once p32 is paginated to get the final version.
+- `assets/tocs/` is populated and `data/tocs.json` manifest is current — 22/34 publications have local TOC images; p30 uses a direct Elsevier CDN URL in the manifest, p32 uses a locally downloaded file.
+- p21 (10.1063/5.0142778), p23 (10.1063/5.0206187), p31 (10.1063/5.0326182), and p34 (10.1063/5.0346413) are AIP — blocked by 403; no TOC image.
+- p33 (10.1007/s00214-026-03322-9) is Springer — not covered by fetch-tocs.py publisher routing (Springer's og:image is usually a first-page PDF render). This article does expose a real figure as og:image (Fig. 1), but per user decision it's skipped for now — no TOC image.
+- p32 (10.1039/D6DT01038E) is RSC — TOC image manually downloaded and stored locally as `assets/tocs/10.1039_d6dt01038e.png` (RSC blocks cross-origin hotlinking, so a direct URL in the manifest doesn't work; only a local file does). Still listed as "Advance Article" in the citation — update to the final volume/issue/pages once RSC paginates it.
 - p17 (10.1039/d2sc05769g) is an RSC reply/comment — no graphical abstract available.
 - p29 (10.1016/j.apsusc.2025.163050) is Elsevier — fetch did not succeed; no TOC image.
 - p30 TOC: direct Elsevier CDN URL stored in tocs.json (https://ars.els-cdn.com/content/image/1-s2.0-S0010854525009531-ga1.jpg).

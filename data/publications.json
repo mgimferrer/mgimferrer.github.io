@@ -693,6 +693,43 @@
         "Costabile, C.",
         "Ragaini, F."
       ]
+    },
+    {
+      "num": 33,
+      "doi": "10.1007/s00214-026-03322-9",
+      "corresponding_author": true,
+      "year": 2026,
+      "journal_full": "Theoretical Chemistry Accounts",
+      "journal_abbr": "Theor. Chem. Acc.",
+      "volume": "145",
+      "issue": "9",
+      "first_page": "",
+      "last_page": "",
+      "article_number": "74",
+      "title": "Effective Fragment Orbitals for Chemical Applications",
+      "authors": [
+        "Gimferrer, M."
+      ]
+    },
+    {
+      "num": 34,
+      "doi": "10.1063/5.0346413",
+      "corresponding_author": false,
+      "year": 2026,
+      "journal_full": "The Journal of Chemical Physics",
+      "journal_abbr": "J. Chem. Phys.",
+      "volume": "165",
+      "issue": "11",
+      "first_page": "",
+      "last_page": "",
+      "article_number": "114302",
+      "title": "A Benchmark Dataset for Ground-State Protonic Densities and Energies",
+      "authors": [
+        "Schiebel, L. N.",
+        "Schröder, B.",
+        "Gimferrer, M.",
+        "Mata, R. A."
+      ]
     }
   ]
 }
